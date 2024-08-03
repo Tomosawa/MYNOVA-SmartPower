@@ -11,6 +11,8 @@
 [![forks](https://img.shields.io/github/forks/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower)
 [![open issues](https://img.shields.io/github/issues-raw/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower/issues)
 [![issue resolution](https://img.shields.io/github/issues-closed-raw/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/Tomosawa/MYNOVA-SmartPower)](https://github.com/Tomosawa/MYNOVA-SmartPower/graphs/contributors)
+[![LICENSE](https://img.shields.io/github/license/Tomosawa/MYNOVA-SmartPower)](https://github.com/Tomosawa/MYNOVA-SmartPower/blob/master/LICENSE)
 
 [English](README.md) | [简体中文](README_zh-CN.md) | 日本語
 
@@ -18,19 +20,27 @@
 
 # 概要
 
-このプログラムファームウェアは、DELLサーバーのPSU（電源装置）を管理し、関連するPMBusパラメータを読み取り、DC5.5およびXT60インターフェースを通じて12V電力を出力するインテリジェントな電力抽出装置のファームウェアプログラムです。このプログラムには、チップのファームウェアコードとWebベースのアプリケーションコードが含まれています。
+このオープンソースハードウェアプロジェクトは、DELLサーバーのPSU用のインテリジェントな電力抽出ボックスを作成することを目的としています。電力の切り替えを制御し、電圧、電流、電力値、温度入力を読み取り、それらをOLEDスクリーンに表示します。このデバイスは、標準的な12Vデバイス用にDC5.5およびXT60インターフェースを通じて12V電力を出力します。
+
+このオープンソースプロジェクトには、チップのファームウェアコード、Webベースのアプリケーションコード、回路図（Altium DesignerおよびPADS）、およびPCBのGerberファイルが含まれています。さらに、3Dプリント用のケースの3Dファイルも提供されています。
 
 完成品のイメージは以下の通りです：
 
 <center>
-<figure>
-<img src="images/1.jpg" width="45%" />
-<img src="images/2.jpg" width="45%" />
-<img src="images/3.jpg" width="45%" />
-<img src="images/4.jpg" width="45%" />
-<img src="images/5.jpg" width="45%" />
-<img src="images/6.jpg" width="45%" />
-</figure>
+
+<p float="left">
+  <img src="images/1.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/2.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/3.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/4.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/5.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/6.jpg" alt="Image 2" width="45%" />
+</p>
+
 </center>
 
 ## 機能概要
@@ -63,6 +73,8 @@
 - MYNOVA_POWER： チップ用のファームウェアコード
 - ESPVue： Web関連のプログラムコード
 - partitions： パーティションテーブルファイル
+- Hardware：ハードウェアに関するオープンソース資料には、回路図、Altium DesignerおよびPADSの設計ファイル、PCBのGerberファイルが含まれます。
+- 3DModels：ケースの3Dモデルファイルには、STLファイルと編集可能なSTEPファイルが含まれます。
 
 ## コンパイル環境
 

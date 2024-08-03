@@ -11,6 +11,8 @@
 [![forks](https://img.shields.io/github/forks/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower)
 [![open issues](https://img.shields.io/github/issues-raw/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower/issues)
 [![issue resolution](https://img.shields.io/github/issues-closed-raw/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/Tomosawa/MYNOVA-SmartPower)](https://github.com/Tomosawa/MYNOVA-SmartPower/graphs/contributors)
+[![LICENSE](https://img.shields.io/github/license/Tomosawa/MYNOVA-SmartPower)](https://github.com/Tomosawa/MYNOVA-SmartPower/blob/master/LICENSE)
 
 [English](README.md) | 简体中文 | [日本語](README_ja-JP.md)
 
@@ -18,19 +20,25 @@
 
 # 简介
 
-这是一个适用于DELL服务器PSU电源的智能取盒的程序固件程序。程序包含芯片的固件程序代码，和Web端的程序代码。
+这是一个开源硬件项目。旨在打造一个适用于DELL服务器PSU电源的智能取电盒。它能够控制电源的开关，读取电源的输入和输出的电压、电流、功率值以及温度在OLED屏幕上显示。它可以通过DC5.5的接口和XT60的接口来输出12V的电源供普通的12V的设备来使用。本开源项目中包含芯片的固件程序代码、Web端的程序代码、电路原理图（AltiumDesigner和PADS）、以及PCB的Gerber文件。还开源了外壳的3D文件（STL），可以进行3D打印。可编辑的STEP文件也公开了，大家可以任意修改模型。
 
 制作好的成品见下图：
 
 <center>
-<figure>
-<img src="images/1.jpg" width="45%" />
-<img src="images/2.jpg" width="45%" />
-<img src="images/3.jpg" width="45%" />
-<img src="images/4.jpg" width="45%" />
-<img src="images/5.jpg" width="45%" />
-<img src="images/6.jpg" width="45%" />
-</figure>
+
+<p float="left">
+  <img src="images/1.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/2.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/3.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/4.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/5.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/6.jpg" alt="Image 2" width="45%" />
+</p>
+
 </center>
 
 ## 功能介绍
@@ -63,6 +71,8 @@
 - MYNOVA_POWER： 芯片中的固件程序代码
 - ESPVue： Web相关的程序代码
 - paritions：分区表文件
+- Hardware：硬件相关的开源资料，包括电路图，AlitumDesigner和PADS的设计文件，以及PCB的Geber文件
+- 3DModels：外壳的3D模型文件，包括STL和可编辑的STEP文件
 
 ## 代码编译环境
 

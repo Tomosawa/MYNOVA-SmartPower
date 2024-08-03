@@ -11,6 +11,8 @@
 [![forks](https://img.shields.io/github/forks/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower)
 [![open issues](https://img.shields.io/github/issues-raw/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower/issues)
 [![issue resolution](https://img.shields.io/github/issues-closed-raw/Tomosawa/MYNOVA-SmartPower.svg)](https://github.com/Tomosawa/MYNOVA-SmartPower/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/Tomosawa/MYNOVA-SmartPower)](https://github.com/Tomosawa/MYNOVA-SmartPower/graphs/contributors)
+[![LICENSE](https://img.shields.io/github/license/Tomosawa/MYNOVA-SmartPower)](https://github.com/Tomosawa/MYNOVA-SmartPower/blob/master/LICENSE)
 
 English | [简体中文](README_zh-CN.md) | [日本語](README_ja-JP.md)
 
@@ -18,19 +20,28 @@ English | [简体中文](README_zh-CN.md) | [日本語](README_ja-JP.md)
 
 # Introduction
 
-This is the firmware program for the intelligent power extraction device that manages the DELL server PSU(Power Supply Unit), reads relevant PMBus parameters, and providing 12V power output through DC5.5 and XT60 interfaces. The program includes firmware code for the chip and web-based application code.
+This is an open-source hardware project aimed at creating an intelligent power extraction box for DELL server PSUs. It controls power switching, reads voltage, current, power values, and temperature inputs and displays them on an OLED screen. The device outputs 12V power through DC5.5 and XT60 interfaces for standard 12V devices.
+
+The open-source project includes firmware code for the chip, web-based application code, circuit schematics (Altium Designer and PADS), and PCB Gerber files. Additionally, 3D files of the casing are provided for 3D printing.
+
 
 Completed product can be seen in the following image:
 
 <center>
-<figure>
-<img src="images/1.jpg" width="45%" />
-<img src="images/2.jpg" width="45%" />
-<img src="images/3.jpg" width="45%" />
-<img src="images/4.jpg" width="45%" />
-<img src="images/5.jpg" width="45%" />
-<img src="images/6.jpg" width="45%" />
-</figure>
+
+<p float="left">
+  <img src="images/1.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/2.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/3.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/4.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/5.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/6.jpg" alt="Image 2" width="45%" />
+</p>
+
 </center>
 
 ## Features
@@ -63,6 +74,8 @@ Other models should be similar; further testing required as I lack additional mo
 - MYNOVA_POWER: Firmware code for the chip.
 - ESPVue: Web-related application code.
 - partitions: Partition table files.
+- Hardware: Hardware datasheet, including circuit schematics, design files for Altium Designer and PADS, as well as PCB Gerber files.
+- 3DModels: 3D model files for the casing, including STL and editable STEP files.
 
 ## Compilation Environment
 

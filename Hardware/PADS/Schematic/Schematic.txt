@@ -1,0 +1,4080 @@
+*PADS-LOGIC-V9.0-CP936* from EasyEDA Pro
+*SCH*
+BORDER NAME Altium_A4
+*SHT* 2 1_P1 -1 $$$NONE
+*TEXT*
+9600 4300 90 0 167 10 0 "Regular Times New Roman"
+IO2
+1650 3050 0 12 278 10 0 "Regular 宋体"
+电源输入部分
+8950 3100 0 12 278 10 0 "Regular 宋体"
+单片机部分
+4550 3100 0 12 278 10 0 "Regular 宋体"
+开关及状态指示
+1750 1950 0 12 278 10 0 "Regular 宋体"
+OLED显示屏
+5350 550 0 12 278 10 0 "Regular 宋体"
+3.3V供电模块
+9400 550 0 12 278 10 0 "Regular 宋体"
+输出接口
+1700 650 0 12 278 10 0 "Regular 宋体"
+螺丝孔
+550 2050 0 0 139 10 0 "Regular 宋体"
+显示屏HS96L03W2C03需单独买
+*LINES*
+Altium_A4 LINES 0 0 6 43
+CLOSED 5 10 255
+0 7600
+0 0
+11500 0
+11500 7600
+0 7600
+CLOSED 5 10 255
+400 7200
+400 400
+11100 400
+11100 7200
+400 7200
+OPEN 2 10 255
+10781 0
+10781 400
+OPEN 2 10 255
+10781 7200
+10781 7600
+OPEN 2 10 255
+0 5700
+400 5700
+OPEN 2 10 255
+11100 5700
+11500 5700
+359 200 0 12 125 10 0 "Regular Verdana"
+1
+359 7400 0 12 125 10 0 "Regular Verdana"
+1
+1078 200 0 12 125 10 0 "Regular Verdana"
+2
+1078 7400 0 12 125 10 0 "Regular Verdana"
+2
+1797 200 0 12 125 10 0 "Regular Verdana"
+3
+1797 7400 0 12 125 10 0 "Regular Verdana"
+3
+2516 200 0 12 125 10 0 "Regular Verdana"
+4
+2516 7400 0 12 125 10 0 "Regular Verdana"
+4
+3234 200 0 12 125 10 0 "Regular Verdana"
+5
+3234 7400 0 12 125 10 0 "Regular Verdana"
+5
+3953 200 0 12 125 10 0 "Regular Verdana"
+6
+3953 7400 0 12 125 10 0 "Regular Verdana"
+6
+4672 200 0 12 125 10 0 "Regular Verdana"
+7
+4672 7400 0 12 125 10 0 "Regular Verdana"
+7
+5391 200 0 12 125 10 0 "Regular Verdana"
+8
+5391 7400 0 12 125 10 0 "Regular Verdana"
+8
+6109 200 0 12 125 10 0 "Regular Verdana"
+9
+6109 7400 0 12 125 10 0 "Regular Verdana"
+9
+6828 200 0 12 125 10 0 "Regular Verdana"
+10
+6828 7400 0 12 125 10 0 "Regular Verdana"
+10
+7547 200 0 12 125 10 0 "Regular Verdana"
+11
+7547 7400 0 12 125 10 0 "Regular Verdana"
+11
+8266 200 0 12 125 10 0 "Regular Verdana"
+12
+8266 7400 0 12 125 10 0 "Regular Verdana"
+12
+8984 200 0 12 125 10 0 "Regular Verdana"
+13
+8984 7400 0 12 125 10 0 "Regular Verdana"
+13
+9703 200 0 12 125 10 0 "Regular Verdana"
+14
+9703 7400 0 12 125 10 0 "Regular Verdana"
+14
+10422 200 0 12 125 10 0 "Regular Verdana"
+15
+10422 7400 0 12 125 10 0 "Regular Verdana"
+15
+11141 200 0 12 125 10 0 "Regular Verdana"
+16
+11141 7400 0 12 125 10 0 "Regular Verdana"
+16
+200 950 0 12 125 10 0 "Regular Verdana"
+D
+11300 950 0 12 125 10 0 "Regular Verdana"
+D
+200 2850 0 12 125 10 0 "Regular Verdana"
+C
+11300 2850 0 12 125 10 0 "Regular Verdana"
+C
+200 4750 0 12 125 10 0 "Regular Verdana"
+B
+11300 4750 0 12 125 10 0 "Regular Verdana"
+B
+200 6650 0 12 125 10 0 "Regular Verdana"
+A
+11300 6650 0 12 125 10 0 "Regular Verdana"
+A
+0 -400 0 0 139 10 0 "Regular Times New Roman"
+ModifiedDate : 2024/6/10
+0 -300 0 0 139 10 0 "Regular Times New Roman"
+Author : Tomosawa
+0 -200 0 0 139 10 0 "Regular Times New Roman"
+Title : 戴尔服务器电源取电板
+$$Line1 LINES 0 0 1 0
+OPEN 3 10 0
+400 2900
+2950 2900
+2950 7200
+$$Line2 LINES 0 0 1 0
+OPEN 2 10 0
+2950 2900
+2955 405
+$$Line3 LINES 0 0 1 0
+OPEN 2 10 0
+6850 7200
+6850 2900
+$$Line4 LINES 0 0 1 0
+OPEN 2 10 0
+7600 2900
+7605 405
+$$Line5 LINES 0 0 1 0
+OPEN 2 10 0
+2955 2905
+11100 2900
+$$Line6 LINES 0 0 1 0
+OPEN 2 10 0
+400 1750
+2950 1750
+*CAEDECAL*
+PIN 0 0 100 10 100 10 2 1 0 0 0 1
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 94 6 0 "Regular default"
+PART-TYPE
+0 0 0 0 94 6 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+0 0
+100 0
+PIN_1 0 0 100 10 100 10 2 1 0 0 0 1
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 94 6 0 "Regular default"
+PART-TYPE
+0 0 0 0 94 6 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+0 0
+200 0
+PIN_2 0 0 100 10 100 10 2 1 0 0 0 1
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 94 6 0 "Regular default"
+PART-TYPE
+0 0 0 0 94 6 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+0 0
+20 0
++12V 0 0 100 10 100 10 2 3 0 1 26 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+0 0
+100 0
+OPEN 2 10 255
+100 50
+100 -50
+OPEN 2 10 255
+0 0
+-0 -0
+T0 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
++12VSB 0 0 100 10 100 10 2 3 0 1 26 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+0 0
+100 0
+OPEN 2 10 255
+100 50
+100 -50
+OPEN 2 10 255
+0 0
+-0 -0
+T0 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+0603WAF2200T5E 0 0 100 10 100 10 2 1 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+CLOSED 5 10 255
+-100 40
+-100 -40
+100 -40
+100 40
+-100 40
+T200 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+100p 0 0 100 10 100 10 2 4 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+OPEN 2 10 255
+-20 -80
+-20 80
+OPEN 2 10 255
+100 0
+20 0
+OPEN 2 10 255
+20 80
+20 -80
+OPEN 2 10 255
+-20 0
+-100 0
+T-200 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T200 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+10114587-001LF 0 0 100 10 100 10 2 1 0 60 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 5 10 255
+-200 1600
+-200 -1600
+200 -1600
+200 1600
+-200 1600
+T-400 1500 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 1400 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 1300 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 1200 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 1100 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 1000 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 900 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 800 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 700 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 600 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 500 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 400 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 300 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 200 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 100 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 0 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -100 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -200 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -200 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -100 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 0 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 100 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 200 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 300 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 400 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 500 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 600 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 700 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 800 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 900 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 1000 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 1100 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 1200 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 1300 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 1400 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 1500 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -400 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -500 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -600 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -700 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -800 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -900 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -1000 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -1100 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -1200 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -1300 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -1400 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T-400 -1500 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -1500 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -1400 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -1300 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -1200 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -1100 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -1000 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -900 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -800 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -700 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -600 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -500 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T400 -400 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+2.54-1*4P母 0 0 100 10 100 10 2 2 0 4 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+CLOSED 5 10 255
+-100 250
+-100 -250
+100 -250
+100 250
+-100 250
+CIRCLE 2 10 255
+-35 200
+-65 200
+T-200 150 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 50 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 -50 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 -150 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+Cap 0 0 100 10 100 10 2 4 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+70 -20
+70 -180
+OPEN 2 10 255
+30 -180
+30 -20
+OPEN 2 10 255
+0 -100
+30 -100
+OPEN 2 10 255
+100 -100
+70 -100
+T-100 -100 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T200 -100 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+CapAcitance 0 0 100 10 100 10 2 4 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+-20 -80
+-20 80
+OPEN 2 10 255
+100 0
+20 0
+OPEN 2 10 255
+20 80
+20 -80
+OPEN 2 10 255
+-20 0
+-100 0
+T-200 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T200 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+CC0603JRNPO9BN101 0 0 100 10 100 10 2 4 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+OPEN 2 10 255
+-20 -80
+-20 80
+OPEN 2 10 255
+100 0
+20 0
+OPEN 2 10 255
+20 80
+20 -80
+OPEN 2 10 255
+-20 0
+-100 0
+T-200 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T200 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+CL21A476MQYNNNE 0 0 100 10 100 10 2 4 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+OPEN 2 10 255
+-20 80
+-20 -80
+OPEN 2 10 255
+20 80
+20 -80
+OPEN 2 10 255
+-50 0
+-20 0
+OPEN 2 10 255
+20 0
+50 0
+T-150 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T150 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+CSPS_PROK 0 0 100 10 100 10 2 2 0 1 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 10 10 255
+50 -50
+0 0
+0 0
+50 50
+50 50
+720 50
+720 50
+720 -50
+720 -50
+50 -50
+OPEN 2 10 255
+0 0
+-0 -0
+T0 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+CSPS_PROK_1 0 0 100 10 100 10 2 2 0 1 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 10 10 255
+0 -50
+0 50
+0 50
+670 50
+670 50
+720 0
+720 0
+670 -50
+670 -50
+0 -50
+OPEN 2 10 255
+720 0
+720 -0
+T720 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+CSPS_PSON 0 0 100 10 100 10 2 2 0 1 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 10 10 255
+50 -50
+0 0
+0 0
+50 50
+50 50
+720 50
+720 50
+720 -50
+720 -50
+50 -50
+OPEN 2 10 255
+0 0
+-0 -0
+T0 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+CSPS_PSON_1 0 0 100 10 100 10 2 2 0 1 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 10 10 255
+0 -50
+0 50
+0 50
+670 50
+670 50
+720 0
+720 0
+670 -50
+670 -50
+0 -50
+OPEN 2 10 255
+720 0
+720 -0
+T720 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+DC-091-A250 0 0 100 10 100 10 2 6 0 3 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+OPEN 2 10 255
+100 0
+40 0
+OPEN 2 10 255
+0 40
+-200 40
+OPEN 2 10 255
+0 -40
+-200 -40
+OPEN 6 10 255
+100 -100
+-190 -100
+-190 -100
+-210 -60
+-210 -60
+-230 -100
+CLOSED 5 10 255
+0 60
+0 -60
+40 -60
+40 60
+0 60
+OPEN 2 10 255
+-200 -40 2700 -1800 -240 -40 -160 40
+-200 40
+T300 0 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T300 -100 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T300 100 0 1 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+ESP32-S3-WROOM-1(N16) 0 0 100 10 100 10 2 4 0 41 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 5 10 255
+-800 1450
+-800 -1300
+800 -1300
+800 1450
+-800 1450
+OPEN 2 10 255
+800 750
+-800 750
+OPEN 74 10 255
+-600 900
+-600 1300
+-600 1300
+-600 1300
+-600 1300
+-600 1300
+-600 1300
+-600 1300
+-600 1300
+-400 1300
+-400 1300
+-400 1300
+-400 1300
+-400 1300
+-400 1300
+-400 1300
+-400 1300
+-400 1050
+-400 1050
+-400 1050
+-400 1050
+-400 1050
+-400 1050
+-400 1050
+-400 1050
+-150 1050
+-150 1050
+-150 1050
+-150 1050
+-150 1050
+-150 1050
+-150 1050
+-150 1050
+-150 1300
+-150 1300
+-150 1300
+-150 1300
+-150 1300
+-150 1300
+-150 1300
+-150 1300
+0 1300
+0 1300
+0 1300
+0 1300
+0 1300
+0 1300
+0 1300
+0 1300
+0 1050
+0 1050
+0 1050
+0 1050
+0 1050
+0 1050
+0 1050
+0 1050
+200 1050
+200 1050
+200 1050
+200 1050
+200 1050
+200 1050
+200 1050
+200 1050
+200 1300
+200 1300
+200 1300
+200 1300
+200 1300
+200 1300
+200 1300
+200 1300
+650 1300
+CIRCLE 2 10 255
+-735 500
+-765 500
+T-900 400 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 300 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 200 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 100 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -100 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -200 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -300 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -400 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -500 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -600 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -700 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -800 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-900 -900 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-500 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-400 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-300 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-100 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T0 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T100 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T200 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T300 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T400 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T500 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T600 -1400 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -900 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -800 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -700 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -600 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -500 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -400 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -300 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -200 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 -100 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 100 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 200 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 300 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 400 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T900 500 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+GND 0 0 100 10 100 10 2 3 0 1 26 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+0 0
+100 0
+OPEN 2 10 255
+100 50
+100 -50
+OPEN 2 10 255
+0 0
+-0 -0
+T0 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+INDUCTOR 0 0 100 10 100 10 2 4 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+150 -50 0 900 50 -100 150 0
+100 -0
+OPEN 2 10 255
+100 -100 2700 900 50 -100 150 0
+150 -50
+OPEN 2 10 255
+150 -150 0 900 50 -200 150 -100
+100 -100
+OPEN 2 10 255
+100 -200 2700 900 50 -200 150 -100
+150 -150
+T100 100 90 2 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T100 -300 90 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+MT1470 0 0 100 10 100 10 2 1 0 6 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 5 10 255
+-250 200
+-250 -200
+250 -200
+250 200
+-250 200
+T350 100 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T350 -100 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T350 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-350 -100 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-350 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-350 100 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+NPN 0 0 100 10 100 10 2 7 0 3 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+150 -240
+240 -330
+OPEN 2 10 255
+300 -380
+300 -400
+OPEN 2 10 255
+0 -200
+150 -200
+OPEN 4 10 255
+300 0
+300 -30
+300 -30
+150 -180
+CLOSED 8 10 255
+150 -70
+130 -70
+130 -70
+130 -330
+130 -330
+150 -330
+150 -330
+150 -70
+CLOSED 6 10 255
+260 -310
+220 -350
+220 -350
+300 -380
+300 -380
+260 -310
+CIRCLE 2 10 255
+400 -200
+0 -200
+T-200 -200 0 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T300 200 90 2 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+T300 -600 90 0 100 10 0 4 210 -30 0 0 PIN_1
+P-100 0 0 1 0 0 0 0 128
+PRESENT 0 0 100 10 100 10 2 2 0 1 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 10 10 255
+0 -50
+0 50
+0 50
+510 50
+510 50
+560 0
+560 0
+510 -50
+510 -50
+0 -50
+OPEN 2 10 255
+560 0
+560 -0
+T560 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+PZ200V-11-06P 0 0 100 10 100 10 2 2 0 6 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 5 10 255
+-100 350
+-100 -350
+100 -350
+100 350
+-100 350
+CIRCLE 2 10 255
+-35 300
+-65 300
+T-200 250 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 150 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 50 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 -50 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 -150 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 -250 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+Res2 0 0 100 10 100 10 2 1 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+CLOSED 5 10 255
+0 -60
+0 -140
+200 -140
+200 -60
+0 -60
+T300 -100 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-100 -100 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+SMAJ15CA_C1509527 0 0 100 10 100 10 2 3 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+OPEN 10 10 255
+-20 80
+-20 80
+-20 80
+0 60
+0 60
+0 -60
+0 -60
+10 -70
+10 -70
+20 -80
+CLOSED 6 10 255
+100 50
+0 0
+0 0
+100 -50
+100 -50
+100 50
+CLOSED 6 10 255
+-100 50
+0 0
+0 0
+-100 -50
+-100 -50
+-100 50
+T-200 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T200 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+TS-1088-AR02016 0 0 100 10 100 10 2 5 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+OPEN 2 10 255
+-90 20
+80 70
+OPEN 2 10 255
+200 0
+100 0
+OPEN 2 10 255
+-200 0
+-100 0
+CIRCLE 2 10 255
+100 0
+60 0
+CIRCLE 2 10 255
+-60 0
+-100 0
+T300 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-300 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+VC060303A100DP 0 0 100 10 100 10 2 2 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 9 10 0 "Regular 宋体"
+REF-DES
+CLOSED 5 10 255
+-200 50
+-200 -50
+0 -50
+0 50
+-200 50
+OPEN 4 10 255
+-200 -80
+-150 -80
+-150 -80
+0 80
+T-300 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T100 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+VCC_3V3 0 0 100 10 100 10 2 3 0 1 26 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+0 0
+100 0
+OPEN 2 10 255
+100 50
+100 -50
+OPEN 2 10 255
+0 0
+-0 -0
+T0 0 90 2 0 10 0 4 10 -30 0 0 
+P-100 0 0 1 0 0 0 0 128
+XT60 0 0 100 10 100 10 2 2 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+CLOSED 5 10 255
+-100 150
+-100 -150
+100 -150
+100 150
+-100 150
+CIRCLE 2 10 255
+-35 100
+-65 100
+T-200 50 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 -50 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+电阻 0 0 100 10 100 10 2 1 0 2 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 14 10 0 "Regular 宋体"
+PART-TYPE
+0 0 0 0 14 10 0 "Regular 宋体"
+REF-DES
+CLOSED 5 10 255
+-100 40
+-100 -40
+100 -40
+100 40
+-100 40
+T200 0 0 1 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+T-200 0 0 0 50 10 0 4 110 -30 0 0 PIN
+P-100 0 0 1 0 0 0 0 128
+螺丝孔 0 0 100 10 100 10 2 6 0 1 0 0
+TIMESTAMP 2024.08.03.20.45.55
+"Default Font"
+"Default Font"
+0 0 0 0 9 1 0 "Regular default"
+PART-TYPE
+0 0 0 0 9 1 0 "Regular default"
+REF-DES
+OPEN 2 10 255
+50 80
+-50 40
+OPEN 2 10 255
+50 40
+-50 -10
+OPEN 2 10 255
+50 -10
+-50 -60
+OPEN 2 10 255
+100 80
+-100 80
+OPEN 5 10 255
+50 80
+50 -60
+0 -110
+-50 -60
+-50 80
+OPEN 2 10 255
+-100 80 1431 -1063 -125 -120 125 130
+100 80
+T0 -120 90 0 10 10 0 4 30 -30 0 0 PIN_2
+P-100 0 0 1 0 0 0 0 128
+*PARTTYPE*
+0603WAF2200T5E UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+0603WAF2200T5E
+2 0 U 2
+1 0 U 1
+100p UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+100p
+1 0 U 1
+2 0 U 2
+10114587-001LF UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 60 0
+10114587-001LF
+P1 0 U P1
+P2 0 U P2
+P3 0 U P3
+P4 0 U P4
+P5 0 U P5
+P6 0 U P6
+P7 0 U P7
+P8 0 U P8
+P9 0 U P9
+P10 0 U P10
+P11 0 U P11
+P12 0 U P12
+P13 0 U P13
+P14 0 U P14
+P15 0 U P15
+P16 0 U P16
+P17 0 U P17
+P18 0 U P18
+P19 0 U P19
+P20 0 U P20
+P21 0 U P21
+P22 0 U P22
+P23 0 U P23
+P24 0 U P24
+P25 0 U P25
+P26 0 U P26
+P27 0 U P27
+P28 0 U P28
+P29 0 U P29
+P30 0 U P30
+P31 0 U P31
+P32 0 U P32
+P33 0 U P33
+P34 0 U P34
+P35 0 U P35
+P36 0 U P36
+S1 0 U S1
+S2 0 U S2
+S3 0 U S3
+S4 0 U S4
+S5 0 U S5
+S6 0 U S6
+S7 0 U S7
+S8 0 U S8
+S9 0 U S9
+S10 0 U S10
+S11 0 U S11
+S12 0 U S12
+S13 0 U S13
+S14 0 U S14
+S15 0 U S15
+S16 0 U S16
+S17 0 U S17
+S18 0 U S18
+S19 0 U S19
+S20 0 U S20
+S21 0 U S21
+S22 0 U S22
+S23 0 U S23
+S24 0 U S24
+2.54-1*4P母 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 4 0
+2.54-1*4P母
+1 0 U 1
+2 0 U 2
+3 0 U 3
+4 0 U 4
+Cap UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+Cap
+1 0 U 1
+2 0 U 2
+CapAcitance UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+CapAcitance
+1 0 U 1
+2 0 U 2
+CC0603JRNPO9BN101 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+CC0603JRNPO9BN101
+1 0 U 1
+2 0 U 2
+CL21A476MQYNNNE UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+CL21A476MQYNNNE
+1 0 U 1
+2 0 U 2
+DC-091-A250 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 3 0
+DC-091-A250
+3 0 U 3
+4 0 U 4
+6 0 U 6
+ESP32-S3-WROOM-1(N16) UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 41 0
+ESP32-S3-WROOM-1(N16)
+1 0 U GND
+2 0 U 3V3
+3 0 U EN
+4 0 U IO4
+5 0 U IO5
+6 0 U IO6
+7 0 U IO7
+8 0 U IO15
+9 0 U IO16
+10 0 U IO17
+11 0 U IO18
+12 0 U IO8
+13 0 U IO19
+14 0 U IO20
+15 0 U IO3
+16 0 U IO46
+17 0 U IO9
+18 0 U IO10
+19 0 U IO11
+20 0 U IO12
+21 0 U IO13
+22 0 U IO14
+23 0 U IO21
+24 0 U IO47
+25 0 U IO48
+26 0 U IO45
+27 0 U IO0
+28 0 U IO35
+29 0 U IO36
+30 0 U IO37
+31 0 U IO38
+32 0 U IO39
+33 0 U IO40
+34 0 U IO41
+35 0 U IO42
+36 0 U RXD0
+37 0 U TXD0
+38 0 U IO2
+39 0 U IO1
+40 0 U GND
+41 0 U GND
+INDUCTOR UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+INDUCTOR
+1 0 U 1
+2 0 U 2
+MT1470 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 6 0
+MT1470
+2 0 U SW
+1 0 U GND
+4 0 U FB
+5 0 U EN
+3 0 U VIN
+6 0 U BS
+NPN UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 3 0
+NPN
+1 0 U B
+3 0 U C
+2 0 U E
+PZ200V-11-06P UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 6 0
+PZ200V-11-06P
+GND 0 U GND
+BOOT 0 U BOOT
+EN 0 U EN
+RXD 0 U RXD
+TXD 0 U TXD
+VCC 0 U VCC
+Res2 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+Res2
+2 0 U 2
+1 0 U 1
+SMAJ15CA_C1509527 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+SMAJ15CA_C1509527
+1 0 U 1
+2 0 U 2
+TS-1088-AR02016 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+TS-1088-AR02016
+2 0 U 2
+1 0 U 1
+VC060303A100DP UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+VC060303A100DP
+1 0 U 1
+2 0 U 2
+XT60 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+XT60
+1 0 U -
+2 0 U +
+电阻 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 2 0
+电阻
+2 0 U 2
+1 0 U 1
+螺丝孔 UND 1 0 0 0
+TIMESTAMP 2024.08.03.20.45.55
+GATE 1 1 0
+螺丝孔
+1 0 U 1
+$PWR_SYMS UND 0 0 2 0
+TIMESTAMP 2024.08.03.20.45.55
+PWR 4
++12V P +12V
++12VSB P +12VSB
+GND P GND
+VCC_3V3 P VCC_3V3
+$OSR_SYMS UND 0 0 2 0
+TIMESTAMP 2024.08.03.20.45.55
+OFF 5
+CSPS_PROK U
+CSPS_PROK_1 U
+CSPS_PSON U
+CSPS_PSON_1 U
+PRESENT U
+*PART*
+DC1 DC-091-A250 9850 2500 0 0 100 10 100 10 3 29 3 0 0 6
+"Default Font"
+"Default Font"
+-250 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-250 -200 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-250 -200 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" DC-091-A250
+"Symbol" DC-091-A250
+"Device" DC-091-A250
+"PCB DECAL" DC-IN-TH_DC-091-A250
+"Supplier" LCSC
+"Supplier Part" C720588
+"Manufacturer" XUNPU(讯普)
+"Manufacturer Part" DC-091-A250
+"JLCPCB Part Class" 扩展库
+"LCSC Part Name" DC电源插座 内径:2.5mm 外径:6.45mm
+"Supplier Footprint" 插件
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20211022/4405C4A6464D514B1AFE6C16257EC3E0.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 71712f683e0d4b868f9bba5c6e495897
+"3D Model Title" DC-IN-TH_DC-091-A250
+"3D Model Transform" 511.81,393.7,0,0,0,0,-94.488,0,-118.11
+"Connector Type" DC电源插座
+"Mounting Style" 弯插
+"Inside Contact Diameter" 2.5mm
+"Outside Contact Diameter" 6.45mm
+"Current Rating (Max)" 5A
+"Voltage Rating (Max)" 24V
+"Operating Temperature Range" -30℃~+70℃
+"Description" 连接器类型:DC电源插座;安装方式:弯插;触点内径:2.5mm;触点外径:6.45mm;额定电流:5A;额定电压:24V;工作温度范围:-30℃~+70℃;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge1
+0 100 10 0 4
+1 100 10 0 4
+2 100 10 0 4
+DC2 DC-091-A250 9850 1950 0 0 100 10 100 10 3 29 3 0 0 6
+"Default Font"
+"Default Font"
+-250 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-250 -200 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-250 -200 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" DC-091-A250
+"Symbol" DC-091-A250
+"Device" DC-091-A250
+"PCB DECAL" DC-IN-TH_DC-091-A250
+"Supplier" LCSC
+"Supplier Part" C720588
+"Manufacturer" XUNPU(讯普)
+"Manufacturer Part" DC-091-A250
+"JLCPCB Part Class" 扩展库
+"LCSC Part Name" DC电源插座 内径:2.5mm 外径:6.45mm
+"Supplier Footprint" 插件
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20211022/4405C4A6464D514B1AFE6C16257EC3E0.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 71712f683e0d4b868f9bba5c6e495897
+"3D Model Title" DC-IN-TH_DC-091-A250
+"3D Model Transform" 511.81,393.7,0,0,0,0,-94.488,0,-118.11
+"Connector Type" DC电源插座
+"Mounting Style" 弯插
+"Inside Contact Diameter" 2.5mm
+"Outside Contact Diameter" 6.45mm
+"Current Rating (Max)" 5A
+"Voltage Rating (Max)" 24V
+"Operating Temperature Range" -30℃~+70℃
+"Description" 连接器类型:DC电源插座;安装方式:弯插;触点内径:2.5mm;触点外径:6.45mm;额定电流:5A;额定电压:24V;工作温度范围:-30℃~+70℃;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge2
+0 100 10 0 4
+1 100 10 0 4
+2 100 10 0 4
+DC3 DC-091-A250 9850 1400 0 0 100 10 100 10 3 29 3 0 0 6
+"Default Font"
+"Default Font"
+-250 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-250 -200 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-250 -200 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" DC-091-A250
+"Symbol" DC-091-A250
+"Device" DC-091-A250
+"PCB DECAL" DC-IN-TH_DC-091-A250
+"Supplier" LCSC
+"Supplier Part" C720588
+"Manufacturer" XUNPU(讯普)
+"Manufacturer Part" DC-091-A250
+"JLCPCB Part Class" 扩展库
+"LCSC Part Name" DC电源插座 内径:2.5mm 外径:6.45mm
+"Supplier Footprint" 插件
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20211022/4405C4A6464D514B1AFE6C16257EC3E0.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 71712f683e0d4b868f9bba5c6e495897
+"3D Model Title" DC-IN-TH_DC-091-A250
+"3D Model Transform" 511.81,393.7,0,0,0,0,-94.488,0,-118.11
+"Connector Type" DC电源插座
+"Mounting Style" 弯插
+"Inside Contact Diameter" 2.5mm
+"Outside Contact Diameter" 6.45mm
+"Current Rating (Max)" 5A
+"Voltage Rating (Max)" 24V
+"Operating Temperature Range" -30℃~+70℃
+"Description" 连接器类型:DC电源插座;安装方式:弯插;触点内径:2.5mm;触点外径:6.45mm;额定电流:5A;额定电压:24V;工作温度范围:-30℃~+70℃;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge3
+0 100 10 0 4
+1 100 10 0 4
+2 100 10 0 4
+DC4 DC-091-A250 9850 900 0 0 100 10 100 10 3 29 3 0 0 6
+"Default Font"
+"Default Font"
+-250 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-250 -200 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-250 -200 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" DC-091-A250
+"Symbol" DC-091-A250
+"Device" DC-091-A250
+"PCB DECAL" DC-IN-TH_DC-091-A250
+"Supplier" LCSC
+"Supplier Part" C720588
+"Manufacturer" XUNPU(讯普)
+"Manufacturer Part" DC-091-A250
+"JLCPCB Part Class" 扩展库
+"LCSC Part Name" DC电源插座 内径:2.5mm 外径:6.45mm
+"Supplier Footprint" 插件
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20211022/4405C4A6464D514B1AFE6C16257EC3E0.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 71712f683e0d4b868f9bba5c6e495897
+"3D Model Title" DC-IN-TH_DC-091-A250
+"3D Model Transform" 511.81,393.7,0,0,0,0,-94.488,0,-118.11
+"Connector Type" DC电源插座
+"Mounting Style" 弯插
+"Inside Contact Diameter" 2.5mm
+"Outside Contact Diameter" 6.45mm
+"Current Rating (Max)" 5A
+"Voltage Rating (Max)" 24V
+"Operating Temperature Range" -30℃~+70℃
+"Description" 连接器类型:DC电源插座;安装方式:弯插;触点内径:2.5mm;触点外径:6.45mm;额定电流:5A;额定电压:24V;工作温度范围:-30℃~+70℃;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge4
+0 100 10 0 4
+1 100 10 0 4
+2 100 10 0 4
+R6 Res2 4250 5600 90 3 100 10 100 10 3 35 2 0 0 30
+"Default Font"
+"Default Font"
+100 0 90 0 139 10 1 "Regular Times New Roman"
+REF-DES
+200 0 90 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+200 0 90 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" 100kΩ
+"Symbol" Res2
+"Device" RC0603FR-071KL
+"PCB DECAL" R0603
+"LCSC Part Name" 1kΩ ±1% 100mW
+"Supplier Part" 
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" RC0603FR-071KL
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20180312/7BD3618A8B6324EA6280B0497A051AB7.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Type" 厚膜电阻
+"Value" 100kΩ
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Temperature Coefficient" ±100ppm/℃
+"Overload Voltage (Max)" 75V
+"Operating Temperature Range" -55℃~+155℃
+"Description" 电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;
+"Origin Footprint 1" 0603R
+"Unique ID" ba2c6d155e7fd301
+"Design Item ID" Res2
+"Library Name" Miscellaneous Devices
+"Origin Footprint 2" AXIAL-0.4
+"Origin Footprint 3" R0402
+"Origin Footprint 4" 0402
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+Q1 NPN 5150 4250 0 1 100 10 100 10 3 29 3 0 0 30
+"Default Font"
+"Default Font"
+400 200 0 1 139 10 1 "Regular Times New Roman"
+REF-DES
+400 -700 0 1 139 10 1 "Regular Times New Roman"
+PART-TYPE
+400 -700 0 1 139 10 1 "Regular Times New Roman"
+Name
+"Name" DTC143ZCA
+"Symbol" NPN
+"Device" DTC143ZCA_C15236
+"PCB DECAL" SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+"LCSC Part Name" 电流:100mA 耐压:50V
+"Supplier Part" C15236
+"Manufacturer" CJ(江苏长电/长晶)
+"Manufacturer Part" DTC143ZCA
+"Supplier Footprint" SOT-23
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20140809/1457707205046.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" c62791f0466c4ae2a892c056b845b0ca
+"3D Model Title" SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95
+"3D Model Transform" 98.425,114.173,0,180,0,0,0.0005,-0.0005,0
+"Power Dissipation (Pd)" 200mW
+"Collector-Emitter Breakdown Voltage (Vceo)" 50V
+"Transistor Type" 1个NPN-预偏置
+"Collector Current (Ic)" 100mA
+"Description" 功率(Pd):200mW;集射极击穿电压(Vceo):50V;晶体管类型:1个NPN-预偏置;集电极电流(Ic):100mA;
+"Origin Footprint" SOT23
+"Unique ID" f76c01de5337d462
+"Design Item ID" NPN
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 100 10 0 4
+1 100 10 0 4
+2 100 10 0 4
+U3 MT1470 5200 1650 0 0 100 10 100 10 3 33 6 0 0 6
+"Default Font"
+"Default Font"
+-250 -300 0 0 139 10 1 "Regular Times New Roman"
+REF-DES
+-250 -400 0 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+-250 -400 0 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" MT1470
+"Symbol" MT1470
+"Device" MT1470
+"PCB DECAL" SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+"LCSC Part Name" 停产
+"Supplier Part" C181781
+"Manufacturer" 西安航天民芯
+"Manufacturer Part" MT1470
+"Supplier Footprint" SOT-23-6
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20210917/0B5B51B60596D99E36E81A9EF9D9BC0F.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 18da8f6c14a34920b3e136b5c401a119
+"3D Model Title" SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95
+"3D Model Transform" 110.73671,114.173,0,180,0,0,0.001,-0.003,0
+"Function" 降压型
+"Input Voltage" -
+"Output Current (Max)" -
+"Switching Frequency" -
+"Synchronous Rectification" -
+"Number of Outputs" -
+"Topology" -
+"Switch tube (built-in/external)" 内置
+"Description" 功能类型:降压型;输入电压:-;输出电流(最大值):-;
+"Origin Footprint" SOT23-6
+"Unique ID" 1bdc0ab44f99f92d
+"Design Item ID" MT1470
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+2 50 10 0 4
+3 50 10 0 4
+4 50 10 0 4
+5 50 10 0 4
+C5 Cap 4275 1500 90 3 100 10 100 10 3 29 2 0 0 30
+"Default Font"
+"Default Font"
+100 -450 90 0 139 10 1 "Regular Times New Roman"
+REF-DES
+200 -500 90 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+200 -500 90 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" 10uF
+"Symbol" Cap
+"Device" CL21A106KAYNNNE_C15850
+"PCB DECAL" C0805
+"LCSC Part Name" 10uF ±10% 25V
+"Supplier Part" C15850
+"Manufacturer" SAMSUNG(三星)
+"Manufacturer Part" CL21A106KAYNNNE
+"Supplier Footprint" 0805
+"JLCPCB Part Class" Basic Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707679302.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 1ba041120af144c991958decab20d241
+"3D Model Title" C0805_L2.0-W1.3-H1.3
+"3D Model Transform" 78.74,51.181,0,0,0,0,0,0.0005,0
+"Value" 10uF
+"Tolerance" ±10%
+"Voltage Rated" 25V
+"Temperature Coefficient" X5R
+"Description" 容值:10uF;精度:±10%;额定电压:25V;材质(温度系数):X5R;
+"Origin Footprint" 1206C
+"Unique ID" b4693cfd16d534cd
+"Design Item ID" Cap
+"Library Name" Miscellaneous Devices
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+R7 Res2 3875 1550 0 3 100 10 100 10 3 34 2 0 0 30
+"Default Font"
+"Default Font"
+100 -250 0 3 139 10 1 "Regular Times New Roman"
+REF-DES
+100 -150 0 3 139 10 1 "Regular Times New Roman"
+PART-TYPE
+100 -150 0 3 139 10 1 "Regular Times New Roman"
+Name
+"Name" 0Ω
+"Symbol" Res2
+"Device" 0603WAF0000T5E
+"PCB DECAL" R0603
+"LCSC Part Name" 0Ω ±1% 100mW 厚膜电阻
+"Supplier Part" C21189
+"Manufacturer" UNI-ROYAL(厚声)
+"Manufacturer Part" 0603WAF0000T5E
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Basic Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Value" 0Ω
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Overload Voltage (Max)" 75V
+"Type" 厚膜电阻
+"Operating Temperature Range" -55℃~+155℃
+"Description" 阻值:0Ω;精度:±1%;功率:100mW;电阻类型:厚膜电阻;
+"Origin Footprint 1" 0603R
+"Unique ID" 353b166cc2dee846
+"Design Item ID" Res2
+"Library Name" Miscellaneous Devices
+"Origin Footprint 2" AXIAL-0.4
+"Origin Footprint 3" R0402
+"Origin Footprint 4" 0402
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+R9 Res2 4325 1350 90 0 100 10 100 10 3 34 2 0 0 30
+"Default Font"
+"Default Font"
+100 -140 90 3 139 10 1 "Regular Times New Roman"
+REF-DES
+0 -140 90 3 139 10 1 "Regular Times New Roman"
+PART-TYPE
+0 -140 90 3 139 10 1 "Regular Times New Roman"
+Name
+"Name" 100kΩ
+"Symbol" Res2
+"Device" RC0603FR-07100KL
+"PCB DECAL" R0603
+"LCSC Part Name" 厚膜电阻 100kΩ ±1% 100mW
+"Supplier Part" C14675
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" RC0603FR-07100KL
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20140324/1457707028752.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Type" 厚膜电阻
+"Value" 100kΩ
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Temperature Coefficient" ±100ppm/℃
+"Overload Voltage (Max)" 75V
+"Operating Temperature Range" -55℃~+155℃
+"Description" 电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;温度系数:±100ppm/℃;
+"Origin Footprint 1" 0603R
+"Unique ID" 6f63fc6711cfa315
+"Design Item ID" Res2
+"Library Name" Miscellaneous Devices
+"Origin Footprint 2" AXIAL-0.4
+"Origin Footprint 3" R0402
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+R8 Res2 6100 1450 90 0 100 10 100 10 3 34 2 0 0 30
+"Default Font"
+"Default Font"
+100 -140 90 3 139 10 1 "Regular Times New Roman"
+REF-DES
+0 -140 90 3 139 10 1 "Regular Times New Roman"
+PART-TYPE
+0 -140 90 3 139 10 1 "Regular Times New Roman"
+Name
+"Name" 100kΩ
+"Symbol" Res2
+"Device" RC0603FR-07100KL
+"PCB DECAL" R0603
+"LCSC Part Name" 厚膜电阻 100kΩ ±1% 100mW
+"Supplier Part" C14675
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" RC0603FR-07100KL
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20140324/1457707028752.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Type" 厚膜电阻
+"Value" 100kΩ
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Temperature Coefficient" ±100ppm/℃
+"Overload Voltage (Max)" 75V
+"Operating Temperature Range" -55℃~+155℃
+"Description" 电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;温度系数:±100ppm/℃;
+"Origin Footprint 1" 0603R
+"Unique ID" fe89d0632cfce75f
+"Design Item ID" Res2
+"Library Name" Miscellaneous Devices
+"Origin Footprint 2" AXIAL-0.4
+"Origin Footprint 3" R0402
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+R10 Res2 6100 1050 90 0 100 10 100 10 3 34 2 0 0 30
+"Default Font"
+"Default Font"
+100 -140 90 3 139 10 1 "Regular Times New Roman"
+REF-DES
+0 -140 90 3 139 10 1 "Regular Times New Roman"
+PART-TYPE
+0 -140 90 3 139 10 1 "Regular Times New Roman"
+Name
+"Name" 31.6kΩ
+"Symbol" Res2
+"Device" 0603WAF3162T5E
+"PCB DECAL" R0603
+"LCSC Part Name" 31.6kΩ ±1% 100mW 厚膜电阻
+"Supplier Part" C25967
+"Manufacturer" UNI-ROYAL(厚声)
+"Manufacturer Part" 0603WAF3162T5E
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Value" 31.6kΩ
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Overload Voltage (Max)" 75V
+"Temperature Coefficient" ±100ppm/℃
+"Type" 厚膜电阻
+"Operating Temperature Range" -55℃~+155℃
+"Description" 阻值:31.6kΩ;精度:±1%;功率:100mW;温度系数:±100ppm/℃;电阻类型:厚膜电阻;
+"Origin Footprint 1" 0603R
+"Unique ID" fdc86a4b576d9e98
+"Design Item ID" Res2
+"Library Name" Miscellaneous Devices
+"Origin Footprint 2" AXIAL-0.4
+"Origin Footprint 3" R0402
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+C6 Cap 6900 1550 90 0 100 10 100 10 3 30 2 0 0 30
+"Default Font"
+"Default Font"
+10 -190 90 3 139 10 1 "Regular Times New Roman"
+REF-DES
+-90 -190 90 3 139 10 1 "Regular Times New Roman"
+PART-TYPE
+-90 -190 90 3 139 10 1 "Regular Times New Roman"
+Name
+"Name" 100nF
+"Symbol" Cap
+"Device" 0603B104K500NT
+"PCB DECAL" C0603
+"LCSC Part Name" 100nF ±10% 50V
+"Supplier Part" C30926
+"Manufacturer" FH(风华)
+"Manufacturer Part" 0603B104K500NT
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200305/C486355_26A10D38EF8C2A5C37091D0039909270.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" ac125912035d415993ca9572d50418b1
+"3D Model Title" C0603_L1.6-W0.8-H0.8
+"3D Model Transform" 62.992,31.496,0,0,0,0,0,0,0
+"Value" 100nF
+"Tolerance" ±10%
+"Voltage Rated" 50V
+"Temperature Coefficient" X7R
+"Description" 容值:100nF;精度:±10%;额定电压:50V;材质(温度系数):X7R;
+"Origin Footprint 1" 0603C
+"Unique ID" 3a68d3ddabf48558
+"Design Item ID" Cap
+"Library Name" Miscellaneous Devices
+"Origin Footprint 2" 0402
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+L1 INDUCTOR 5775 1650 90 0 100 10 100 10 3 32 2 0 0 30
+"Default Font"
+"Default Font"
+250 0 90 3 139 10 1 "Regular Times New Roman"
+REF-DES
+150 0 90 3 139 10 1 "Regular Times New Roman"
+PART-TYPE
+150 0 90 3 139 10 1 "Regular Times New Roman"
+Name
+"Name" 4.7uH
+"Symbol" INDUCTOR
+"Device" SWPA3015S4R7MT
+"PCB DECAL" IND-SMD_L3.0-W3.0_FNR30XXS
+"LCSC Part Name" 4.7uH ±20% 1.4A
+"Supplier Part" C19398
+"Manufacturer" Sunlord(顺络)
+"Manufacturer Part" SWPA3015S4R7MT
+"Supplier Footprint" SMD
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20210916/AC798BA7E846B7D0B6818F45CD84DB0B.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 822d71758aa744dca2559abd61137eb2
+"3D Model Title" IND-SMD_L3.0-W3.0-H1.5_FNR30XXS
+"3D Model Transform" 118.11,118.11,0,90,0,0,0,0,0
+"Type" -
+"Value" 4.7uH
+"Tolerance" ±20%
+"Rated Current" 1.09A
+"Saturation Current (Isat)" 1.4A
+"DC Resistance (DCR)" 163mΩ
+"Ratings" -
+"Description" 类型:-;电感值:4.7uH;精度:±20%;额定电流:1.09A;饱和电流(Isat):1.4A;
+"Origin Footprint" COKE_3X3A
+"Unique ID" d450ceac7adb81c3
+"Design Item ID" INDUCTOR
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+C3 Cap 5150 2100 0 0 100 10 100 10 3 30 2 0 0 30
+"Default Font"
+"Default Font"
+-125 50 0 0 139 10 1 "Regular Times New Roman"
+REF-DES
+75 50 0 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+75 50 0 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" 100nF
+"Symbol" Cap
+"Device" 0603B104K500NT
+"PCB DECAL" C0603
+"LCSC Part Name" 100nF ±10% 50V
+"Supplier Part" C30926
+"Manufacturer" FH(风华)
+"Manufacturer Part" 0603B104K500NT
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200305/C486355_26A10D38EF8C2A5C37091D0039909270.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" ac125912035d415993ca9572d50418b1
+"3D Model Title" C0603_L1.6-W0.8-H0.8
+"3D Model Transform" 62.992,31.496,0,0,0,0,0,0,0
+"Value" 100nF
+"Tolerance" ±10%
+"Voltage Rated" 50V
+"Temperature Coefficient" X7R
+"Description" 容值:100nF;精度:±10%;额定电压:50V;材质(温度系数):X7R;
+"Origin Footprint 1" 0603C
+"Unique ID" a2c5d49bc5dde298
+"Design Item ID" Cap
+"Library Name" Miscellaneous Devices
+"Origin Footprint 2" 0402
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+U2 ESP32-S3-WROOM-1(N16) 8850 5550 0 0 100 10 100 10 3 25 41 0 0 6
+"Default Font"
+"Default Font"
+1050 1000 0 0 97 10 1 "Regular default"
+REF-DES
+-450 800 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-450 800 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" ESP32-S3-WROOM-1-N16
+"Symbol" ESP32-S3-WROOM-1(N16)
+"Device" ESP32-S3-WROOM-1-N16
+"PCB DECAL" WIRELM-SMD_ESP32-S3-WROOM-1
+"LCSC Part Name" 通用型Wi-Fi+低功耗蓝牙MCU模组
+"Supplier Part" C2913199
+"Manufacturer" ESPRESSIF(乐鑫)
+"Manufacturer Part" ESP32-S3-WROOM-1-N16
+"Supplier Footprint" SMD,18x25.5mm
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20220628/A2AC12B3C87735CAEB7EBE2DBE80936C.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 481f5bdfc076422c9bb3c23c3ada9c17
+"3D Model Title" WIRELM-SMD_ESP32-S3-WROOM-1
+"3D Model Transform" 708.73866,1003.97437,0,0,0,0,0,143.7,0
+"Description" 
+"Origin Footprint" WIRELM-SMD_ESP32-S3-WROOM-1
+"Unique ID" 124c013cfc851acc
+"Design Item ID" ESP32-S3-WROOM-1(N16)
+"Designer" U?
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+2 50 10 0 4
+3 50 10 0 4
+4 50 10 0 4
+5 50 10 0 4
+6 50 10 0 4
+7 50 10 0 4
+8 50 10 0 4
+9 50 10 0 4
+10 50 10 0 4
+11 50 10 0 4
+12 50 10 0 4
+13 50 10 0 4
+14 50 10 0 4
+15 50 10 0 4
+16 50 10 0 4
+17 50 10 0 4
+18 50 10 0 4
+19 50 10 0 4
+20 50 10 0 4
+21 50 10 0 4
+22 50 10 0 4
+23 50 10 0 4
+24 50 10 0 4
+25 50 10 0 4
+26 50 10 0 4
+27 50 10 0 4
+28 50 10 0 4
+29 50 10 0 4
+30 50 10 0 4
+31 50 10 0 4
+32 50 10 0 4
+33 50 10 0 4
+34 50 10 0 4
+35 50 10 0 4
+36 50 10 0 4
+37 50 10 0 4
+38 50 10 0 4
+39 50 10 0 4
+40 50 10 0 4
+C1 100p 6000 6300 90 3 100 10 100 10 3 27 2 0 0 30
+"Default Font"
+"Default Font"
+46 100 90 0 139 10 1 "Regular 宋体"
+REF-DES
+136 100 90 0 139 10 1 "Regular 宋体"
+PART-TYPE
+136 100 90 0 139 10 1 "Regular 宋体"
+Name
+"Name" 100pF
+"Symbol" 100p
+"Device" CC0603JRNPO9BN101
+"PCB DECAL" C0603
+"LCSC Part Name" 100pF ±5% 50V
+"Supplier Part" C14665
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" CC0603JRNPO9BN101
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20181008/C309499_21CC21451B82C39E3D92150FD6B30293.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" ac125912035d415993ca9572d50418b1
+"3D Model Title" C0603_L1.6-W0.8-H0.8
+"3D Model Transform" 62.992,31.496,0,0,0,0,0,0,0
+"Value" 100pF
+"Tolerance" ±5%
+"Voltage Rated" 50V
+"Temperature Coefficient" NP0
+"Description" 容值:100pF;精度:±5%;额定电压:50V;材质(温度系数):NP0;
+"Origin Footprint" C1206
+"Unique ID" gge6
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+R4 电阻 5650 6300 90 0 100 10 100 10 3 29 2 0 0 30
+"Default Font"
+"Default Font"
+0 -100 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-100 -100 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-100 -100 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" 3kΩ
+"Symbol" 电阻
+"Device" RC0603FR-073KL
+"PCB DECAL" R0603
+"LCSC Part Name" 厚膜电阻 3kΩ ±1% 100mW
+"Supplier Part" C126358
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" RC0603FR-073KL
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20170914/C127450_1505359406912967677.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Type" 厚膜电阻
+"Value" 3kΩ
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Overload Voltage (Max)" 75V
+"Temperature Coefficient" ±100ppm/℃
+"Operating Temperature Range" -55℃~+155℃
+"Description" 电阻类型:厚膜电阻;阻值:3kΩ;精度:±1%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge7
+0 50 10 0 4
+1 50 10 0 4
+R1 电阻 5650 6800 90 0 100 10 100 10 3 29 2 0 0 30
+"Default Font"
+"Default Font"
+0 -100 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-100 -100 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-100 -100 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" 8.2kΩ
+"Symbol" 电阻
+"Device" RC0603FR-078K2L
+"PCB DECAL" R0603
+"LCSC Part Name" 8.2kΩ ±1% 100mW
+"Supplier Part" C114637
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" RC0603FR-078K2L
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20170912/C114637_1505207799594963452.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Type" 厚膜电阻
+"Value" 8.2kΩ
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Temperature Coefficient" ±100ppm/℃
+"Overload Voltage (Max)" 75V
+"Operating Temperature Range" -55℃~+155℃
+"Description" 电阻类型:厚膜电阻;阻值:8.2kΩ;精度:±1%;功率:100mW;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge8
+0 50 10 0 4
+1 50 10 0 4
+SCREW1 螺丝孔 1000 1420 0 0 100 10 100 10 3 12 1 0 0 30
+"Default Font"
+"Default Font"
+150 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-1000 -1420 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-1000 -1420 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" 
+"Symbol" 螺丝孔
+"Device" M3螺丝
+"PCB DECAL" M3螺丝
+"Convert to PCB" yes
+"Add into BOM" yes
+"Supplier Footprint" 插件
+"Description" 
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge9
+0 10 10 0 4
+SCREW2 螺丝孔 2100 1420 0 0 100 10 100 10 3 12 1 0 0 30
+"Default Font"
+"Default Font"
+150 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-2100 -1420 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-2100 -1420 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" 
+"Symbol" 螺丝孔
+"Device" M3螺丝
+"PCB DECAL" M3螺丝
+"Convert to PCB" yes
+"Add into BOM" yes
+"Supplier Footprint" 插件
+"Description" 
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge10
+0 10 10 0 4
+SCREW3 螺丝孔 1000 920 0 0 100 10 100 10 3 12 1 0 0 30
+"Default Font"
+"Default Font"
+150 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-1000 -920 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-1000 -920 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" 
+"Symbol" 螺丝孔
+"Device" M3螺丝
+"PCB DECAL" M3螺丝
+"Convert to PCB" yes
+"Add into BOM" yes
+"Supplier Footprint" 插件
+"Description" 
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge11
+0 10 10 0 4
+SCREW4 螺丝孔 2100 920 0 0 100 10 100 10 3 12 1 0 0 30
+"Default Font"
+"Default Font"
+150 150 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-2100 -920 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-2100 -920 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" 
+"Symbol" 螺丝孔
+"Device" M3螺丝
+"PCB DECAL" M3螺丝
+"Convert to PCB" yes
+"Add into BOM" yes
+"Supplier Footprint" 插件
+"Description" 
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge12
+0 10 10 0 4
+U1 10114587-001LF 1700 5200 0 0 100 10 100 10 3 14 60 0 0 6
+"Default Font"
+"Default Font"
+-200 1600 0 0 139 10 1 "Regular 宋体"
+REF-DES
+-1700 -5200 0 0 139 10 1 "Regular 宋体"
+PART-TYPE
+-1700 -5200 0 0 139 10 1 "Regular 宋体"
+Name
+"Name" 
+"Symbol" 10114587-001LF
+"Device" 10114587-001LF
+"PCB DECAL" 10114587-001LF
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fefd7d9ffc714e33bee46679fa77a5c6
+"3D Model Title" 10114587-001LF
+"3D Model Transform" 2759.01,767.3100000000001,285.43,0,90,0,0,141.73,232.28
+"Description" DELL电源金手指连接器36P24S 立式
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge5
+0 100 10 0 4
+1 100 10 0 4
+2 100 10 0 4
+3 100 10 0 4
+4 100 10 0 4
+5 100 10 0 4
+6 100 10 0 4
+7 100 10 0 4
+8 100 10 0 4
+9 100 10 0 4
+10 100 10 0 4
+11 100 10 0 4
+12 100 10 0 4
+13 100 10 0 4
+14 100 10 0 4
+15 100 10 0 4
+16 100 10 0 4
+17 100 10 0 4
+18 100 10 0 4
+19 100 10 0 4
+20 100 10 0 4
+21 100 10 0 4
+22 100 10 0 4
+23 100 10 0 4
+24 100 10 0 4
+25 100 10 0 4
+26 100 10 0 4
+27 100 10 0 4
+28 100 10 0 4
+29 100 10 0 4
+30 100 10 0 4
+31 100 10 0 4
+32 100 10 0 4
+33 100 10 0 4
+34 100 10 0 4
+35 100 10 0 4
+36 100 10 0 4
+37 100 10 0 4
+38 100 10 0 4
+39 100 10 0 4
+40 100 10 0 4
+41 100 10 0 4
+42 100 10 0 4
+43 100 10 0 4
+44 100 10 0 4
+45 100 10 0 4
+46 100 10 0 4
+47 100 10 0 4
+48 100 10 0 4
+49 100 10 0 4
+50 100 10 0 4
+51 100 10 0 4
+52 100 10 0 4
+53 100 10 0 4
+54 100 10 0 4
+55 100 10 0 4
+56 100 10 0 4
+57 100 10 0 4
+58 100 10 0 4
+59 100 10 0 4
+U4 XT60 7850 2600 0 3 100 10 100 10 3 46 2 0 0 6
+"Default Font"
+"Default Font"
+100 -150 0 3 125 10 1 "Regular Arial"
+REF-DES
+100 250 0 3 125 10 1 "Regular Arial"
+PART-TYPE
+100 250 0 3 125 10 1 "Regular Arial"
+Name
+"Name" XT60
+"Symbol" XT60
+"Device" XT60
+"PCB DECAL" CONN-TH_XT60
+"LCSC Part Name" AMASS(艾迈斯) XT60模型插头 3.5mm镀金香蕉头公头（电调端）XT60-M
+"Supplier Part" C98733
+"Manufacturer" AMASS(艾迈斯)
+"Manufacturer Part" XT60
+"Supplier Footprint" -
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20170606/1496716524919.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 185081e4ebbe4eaea4bbf508888b62e2
+"3D Model Title" CONN-TH_XT60
+"3D Model Transform" 610.235,319.291,0,0,0,0,0,0,-196.85
+"Description" 模型锂电连接器 XT60-M
+"Brand" 艾迈斯
+"Model" XT60PW-M
+"Power" -
+"Output" -
+"Input" -
+"Size" -
+"Interface" -
+"Type" 卧式插头
+"Colour" 黄色
+"MaximumCurrent" -
+"RatedVoltage" -
+"Type1" -
+"NumberOfUSBHoles" -
+"InterfaceType" 公头
+"MetalMaterial" -
+"InsulationMaterial" -
+"RatedCurrent" -
+"RecommendedWireGauge" -
+"FlameRetardantGrade" -
+"contact resistance" -
+"Belt length" -
+"specifications" -
+"Origin Footprint" TH_2P-XT60PW-F
+"Unique ID" 66797bcd97f4f6c2
+"Design Item ID" XT60PW-F
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+U5 XT60 7850 2050 0 3 100 10 100 10 3 46 2 0 0 6
+"Default Font"
+"Default Font"
+100 -150 0 3 125 10 1 "Regular Arial"
+REF-DES
+100 250 0 3 125 10 1 "Regular Arial"
+PART-TYPE
+100 250 0 3 125 10 1 "Regular Arial"
+Name
+"Name" XT60
+"Symbol" XT60
+"Device" XT60
+"PCB DECAL" CONN-TH_XT60
+"LCSC Part Name" AMASS(艾迈斯) XT60模型插头 3.5mm镀金香蕉头公头（电调端）XT60-M
+"Supplier Part" C98733
+"Manufacturer" AMASS(艾迈斯)
+"Manufacturer Part" XT60
+"Supplier Footprint" -
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20170606/1496716524919.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 185081e4ebbe4eaea4bbf508888b62e2
+"3D Model Title" CONN-TH_XT60
+"3D Model Transform" 610.235,319.291,0,0,0,0,0,0,-196.85
+"Description" 模型锂电连接器 XT60-M
+"Brand" 艾迈斯
+"Model" XT60PW-M
+"Power" -
+"Output" -
+"Input" -
+"Size" -
+"Interface" -
+"Type" 卧式插头
+"Colour" 黄色
+"MaximumCurrent" -
+"RatedVoltage" -
+"Type1" -
+"NumberOfUSBHoles" -
+"InterfaceType" 公头
+"MetalMaterial" -
+"InsulationMaterial" -
+"RatedCurrent" -
+"RecommendedWireGauge" -
+"FlameRetardantGrade" -
+"contact resistance" -
+"Belt length" -
+"specifications" -
+"Origin Footprint" TH_2P-XT60PW-F
+"Unique ID" gge13
+"Design Item ID" XT60PW-F
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+U6 XT60 7850 1500 0 3 100 10 100 10 3 46 2 0 0 6
+"Default Font"
+"Default Font"
+100 -150 0 3 125 10 1 "Regular Arial"
+REF-DES
+100 250 0 3 125 10 1 "Regular Arial"
+PART-TYPE
+100 250 0 3 125 10 1 "Regular Arial"
+Name
+"Name" XT60
+"Symbol" XT60
+"Device" XT60
+"PCB DECAL" CONN-TH_XT60
+"LCSC Part Name" AMASS(艾迈斯) XT60模型插头 3.5mm镀金香蕉头公头（电调端）XT60-M
+"Supplier Part" C98733
+"Manufacturer" AMASS(艾迈斯)
+"Manufacturer Part" XT60
+"Supplier Footprint" -
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20170606/1496716524919.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 185081e4ebbe4eaea4bbf508888b62e2
+"3D Model Title" CONN-TH_XT60
+"3D Model Transform" 610.235,319.291,0,0,0,0,0,0,-196.85
+"Description" 模型锂电连接器 XT60-M
+"Brand" 艾迈斯
+"Model" XT60PW-M
+"Power" -
+"Output" -
+"Input" -
+"Size" -
+"Interface" -
+"Type" 卧式插头
+"Colour" 黄色
+"MaximumCurrent" -
+"RatedVoltage" -
+"Type1" -
+"NumberOfUSBHoles" -
+"InterfaceType" 公头
+"MetalMaterial" -
+"InsulationMaterial" -
+"RatedCurrent" -
+"RecommendedWireGauge" -
+"FlameRetardantGrade" -
+"contact resistance" -
+"Belt length" -
+"specifications" -
+"Origin Footprint" TH_2P-XT60PW-F
+"Unique ID" gge16
+"Design Item ID" XT60PW-F
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+OLED 2.54-1*4P母 2150 2450 0 0 100 10 100 10 3 40 4 0 0 6
+"Default Font"
+"Default Font"
+-150 250 0 0 139 10 1 "Regular Times New Roman"
+REF-DES
+-150 -350 0 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+-150 -350 0 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" 2.54-1*4P母
+"Symbol" 2.54-1*4P母
+"Device" 2.54-1*4P母
+"PCB DECAL" HDR-TH_4P-P2.54-V-F
+"Supplier" LCSC
+"Supplier Part" C2718488
+"Manufacturer" BOOMELE(博穆精密)
+"Manufacturer Part" 2.54-1*4P母
+"JLCPCB Part Class" Extended Part
+"LCSC Part Name" 间距:2.54mm 1x4P 直插
+"Supplier Footprint" 插件,P=2.54mm
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20210301/C2718488_F4427B881E42CAA8DDB0B1C12B3A522C.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 57daaad411c24bd7bd5d06edf5c4d16b
+"3D Model Title" HDR-TH_4P-P2.54-F-LI-1X4P
+"3D Model Transform" 415.7472,98.425,0,0,0,0,0,0,-118.11
+"Number of Rows" 单排
+"Number of Holes" 4P
+"Pitch" 2.54mm
+"Holes Structure" 1x4P
+"Row Spacing" -
+"Mounting Type" 直插
+"Circular Hole / Square Hole" 方孔
+"Current Rating (Max)" 3A
+"Voltage Rating (Max)" -
+"Holes Direction" 顶部
+"Insulation Height" -
+"Contact Material" 青铜
+"Contact Plating" -
+"Operating Temperature Range" -40℃~+105℃
+"Welding Temperature (Max)" -
+"Description" 排数:单排;总孔位数:4P;间距:2.54mm;插孔结构:1x4P;行距:-;安装类型:直插;圆孔/方孔:方孔;额定电流:3A;额定电压:-;插孔方向:顶部;塑高:-;触头材质:青铜;触头镀层:-;工作温度范围:-40℃~+105℃;焊接温度(最大值):-;
+"Origin Footprint" SIP4
+"Unique ID" 4fe8deccf3ecd12b
+"Design Item ID" HEADER4
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+2 50 10 0 4
+3 50 10 0 4
+C7 CC0603JRNPO9BN101 6300 5350 90 0 100 10 100 10 3 26 2 0 0 30
+"Default Font"
+"Default Font"
+0 -150 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-100 -150 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-100 -150 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" 100pF
+"Symbol" CC0603JRNPO9BN101
+"Device" CC0603JRNPO9BN101
+"PCB DECAL" C0603
+"Supplier" LCSC
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" CC0603JRNPO9BN101
+"Value" 100pF
+"Supplier Part" C14665
+"JLCPCB Part Class" Extended Part
+"LCSC Part Name" 100pF ±5% 50V
+"Supplier Footprint" 0603
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20181008/C309499_21CC21451B82C39E3D92150FD6B30293.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" ac125912035d415993ca9572d50418b1
+"3D Model Title" C0603_L1.6-W0.8-H0.8
+"3D Model Transform" 62.992,31.496,0,0,0,0,0,0,0
+"Tolerance" ±5%
+"Voltage Rated" 50V
+"Temperature Coefficient" NP0
+"Description" 容值:100pF;精度:±5%;额定电压:50V;材质(温度系数):NP0;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge15
+0 50 10 0 4
+1 50 10 0 4
+R11 0603WAF2200T5E 6000 4700 0 3 100 10 100 10 3 29 2 0 0 30
+"Default Font"
+"Default Font"
+100 -50 0 3 139 10 1 "Regular 宋体"
+REF-DES
+100 150 0 3 139 10 1 "Regular 宋体"
+PART-TYPE
+100 150 0 3 139 10 1 "Regular 宋体"
+Name
+"Name" 220Ω
+"Symbol" 0603WAF2200T5E
+"Device" 0603WAF2200T5E
+"PCB DECAL" R0603
+"Supplier" LCSC
+"Manufacturer" UNI-ROYAL(厚声)
+"Manufacturer Part" 0603WAF2200T5E
+"Supplier Part" C22962
+"Value" 220Ω
+"JLCPCB Part Class" Basic Part
+"LCSC Part Name" 220Ω ±1% 100mW 厚膜电阻
+"Supplier Footprint" 0603
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Type" 厚膜电阻
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Overload Voltage (Max)" 75V
+"Temperature Coefficient" ±100ppm/℃
+"Operating Temperature Range" -55℃~+155℃
+"Description" 电阻类型:厚膜电阻;阻值:220Ω;精度:±1%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge17
+0 50 10 0 4
+1 50 10 0 4
+UART PZ200V-11-06P 10650 3850 0 0 100 10 100 10 3 46 6 0 0 6
+"Default Font"
+"Default Font"
+-100 350 0 0 139 10 1 "Regular Times New Roman"
+REF-DES
+-200 -550 0 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+-200 -550 0 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" PZ200V-11-06P
+"Symbol" PZ200V-11-06P
+"Device" PZ200V-11-06P
+"PCB DECAL" 6PIN-2MM-UART
+"LCSC Part Name" 间距:2mm 1x6P 直插 方针
+"Supplier Part" C541860
+"Manufacturer" XFCN(兴飞)
+"Manufacturer Part" PZ200V-11-06P
+"Supplier Footprint" 插件,P=2mm
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200518/C541858_7610F54454E936EFCDE06B655DF7C837.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 5bc840b7798c448aa7498306b16b29ed
+"3D Model Title" HDR-TH_6P-P2.00-M-LI-1X6P
+"3D Model Transform" 472.44,78.74,0,0,0,0,0,0,-118.11
+"Pin Structure" 1x6P
+"Pitch" 2mm
+"Row Spacing" -
+"Circluar Pins/Square Pins" 方针
+"Mounting Type" 直插
+"Number of Rows" 单排
+"Number of Pins" 6P
+"Current Rating (Max)" -
+"Voltage Rating (Max)" -
+"Length of Mating Pin" 3.9mm
+"Insulation Height" 2mm
+"Length of End Connection Pin" 2.8mm
+"Contact Material" 黄铜
+"Contact Plating" -
+"Operating Temperature Range" -40℃~+105℃
+"Soldering Temperature(Max)" -
+"Color" 黑色
+"Description" 插针结构:1x6P;间距:2mm;行距:-;圆针/方针:方针;安装类型:直插;排数:单排;总PIN位数:6P;额定电流:-;额定电压:-;配合针长度:3.9mm;塑高:2mm;端接针长度:2.8mm;触头材质:黄铜;触头镀层:-;工作温度范围:-40℃~+105℃;焊接温度(最大值):-;颜色:黑色;
+"Pins Structure" 1x3P
+"Mounting Style" -
+"Number of PINs Per Row" 3
+"Reference Series" PH
+"Origin Footprint" SIP3
+"Unique ID" 12cb931c49908c91
+"Design Item ID" HEADER 3
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+2 50 10 0 4
+3 50 10 0 4
+4 50 10 0 4
+5 50 10 0 4
+S1 TS-1088-AR02016 7400 5400 0 0 100 10 100 10 3 41 2 0 0 14
+"Default Font"
+"Default Font"
+-100 50 0 0 139 10 1 "Regular Times New Roman"
+REF-DES
+-250 -100 0 0 97 10 1 "Regular Times New Roman"
+PART-TYPE
+-250 -100 0 0 97 10 1 "Regular Times New Roman"
+Name
+"Name" TS-1088-AR02016
+"Symbol" TS-1088-AR02016
+"Device" TS-1088-AR02016
+"PCB DECAL" SW-SMD_L3.9-W3.0-P4.45
+"Supplier" LCSC
+"Supplier Part" C720477
+"Manufacturer" XUNPU(讯普)
+"Manufacturer Part" TS-1088-AR02016
+"JLCPCB Part Class" Extended Part
+"LCSC Part Name" 4*3*2mm 立贴 轻触开关
+"Supplier Footprint" SMD
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200810/C720475_60D09DD6C54279ADDB2DC25100F1CC11.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" b26698b69f274ffabef8a26c7d0e5dd1
+"3D Model Title" SW-SMD_L3.9-W2.9-H2.0-LS4.8
+"3D Model Transform" 188.976,114.174,0,0,0,0,0,0,0
+"Circuit" 单刀单掷
+"Actuator Style" 圆形按钮
+"Switch Length" 4mm
+"Switch Width" 3mm
+"Switch Height" 2mm
+"Strike Gundam" 不带
+"Contact Current" 50mA
+"Voltage Rating (DC)" 12V
+"Mounting Style" 立贴
+"Insulation Resistance" 100MΩ
+"Actuator/Cap Color" 黑色
+"Operating Force" 160gf
+"Pin Style" SMD接片
+"Mechanical Life" 10万次
+"Operating Temperature" -30℃~+80℃
+"Description" 电路结构:单刀单掷;按钮形状:圆形按钮;作用力:160gf;安装方式:立贴;开关长度:4mm;开关宽度:3mm;开关高度:2mm;带支架:不带;触点电流:50mA;额定电压(DC):12V;绝缘电阻:100MΩ;机械寿命:10万次;
+"With Lamp" -
+"Origin Footprint" KEY-3.6X6
+"Unique ID" 0ac0bd892f9b1ec0
+"Design Item ID" SW-PB
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+S2 TS-1088-AR02016 7450 5150 0 0 100 10 100 10 3 41 2 0 0 14
+"Default Font"
+"Default Font"
+-150 50 0 0 83 10 1 "Regular Times New Roman"
+REF-DES
+-250 -100 0 0 83 10 1 "Regular Times New Roman"
+PART-TYPE
+-250 -100 0 0 83 10 1 "Regular Times New Roman"
+Name
+"Name" TS-1088-AR02016
+"Symbol" TS-1088-AR02016
+"Device" TS-1088-AR02016
+"PCB DECAL" SW-SMD_L3.9-W3.0-P4.45
+"Supplier" LCSC
+"Supplier Part" C720477
+"Manufacturer" XUNPU(讯普)
+"Manufacturer Part" TS-1088-AR02016
+"JLCPCB Part Class" Extended Part
+"LCSC Part Name" 4*3*2mm 立贴 轻触开关
+"Supplier Footprint" SMD
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200810/C720475_60D09DD6C54279ADDB2DC25100F1CC11.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" b26698b69f274ffabef8a26c7d0e5dd1
+"3D Model Title" SW-SMD_L3.9-W2.9-H2.0-LS4.8
+"3D Model Transform" 188.976,114.174,0,0,0,0,0,0,0
+"Circuit" 单刀单掷
+"Actuator Style" 圆形按钮
+"Switch Length" 4mm
+"Switch Width" 3mm
+"Switch Height" 2mm
+"Strike Gundam" 不带
+"Contact Current" 50mA
+"Voltage Rating (DC)" 12V
+"Mounting Style" 立贴
+"Insulation Resistance" 100MΩ
+"Actuator/Cap Color" 黑色
+"Operating Force" 160gf
+"Pin Style" SMD接片
+"Mechanical Life" 10万次
+"Operating Temperature" -30℃~+80℃
+"Description" 电路结构:单刀单掷;按钮形状:圆形按钮;作用力:160gf;安装方式:立贴;开关长度:4mm;开关宽度:3mm;开关高度:2mm;带支架:不带;触点电流:50mA;额定电压(DC):12V;绝缘电阻:100MΩ;机械寿命:10万次;
+"With Lamp" -
+"Origin Footprint" KEY-3.6X6
+"Unique ID" gge18
+"Design Item ID" SW-PB
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+C4 CL21A476MQYNNNE 6550 1600 90 3 100 10 100 10 3 32 2 0 0 30
+"Default Font"
+"Default Font"
+50 100 90 0 139 10 1 "Regular Times New Roman"
+REF-DES
+150 50 90 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+150 50 90 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" 47uF
+"Symbol" CL21A476MQYNNNE
+"Device" CL21A476MQYNNNE
+"PCB DECAL" C0805
+"Supplier" LCSC
+"Manufacturer Part" CL21A476MQYNNNE
+"Manufacturer" SAMSUNG(三星)
+"Value" 47uF
+"Supplier Part" C16780
+"JLCPCB Part Class" Basic Part
+"LCSC Part Name" 47uF ±20% 6.3V
+"Supplier Footprint" 0805
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 1ba041120af144c991958decab20d241
+"3D Model Title" C0805_L2.0-W1.3-H1.3
+"3D Model Transform" 78.74,51.181,0,0,0,0,0,0.0005,0
+"Tolerance" ±20%
+"Voltage Rated" 6.3V
+"Temperature Coefficient" X5R
+"Description" 容值:47uF;精度:±20%;额定电压:6.3V;材质(温度系数):X5R;
+"Rated Voltage" 10V
+"Equivalent Series Resistance(ESR)" 2.4Ω@100kHz
+"Operating Temperature" -55℃~+125℃
+"Origin Footprint" 1206C
+"Unique ID" cc82bf2c2e22e605
+"Design Item ID" Cap
+"Library Name" Miscellaneous Devices
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+C2 CapAcitance 4500 5450 90 0 100 10 100 10 3 26 2 0 0 30
+"Default Font"
+"Default Font"
+0 -150 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-100 -150 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-100 -150 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" 100pF
+"Symbol" CapAcitance
+"Device" CC0603JRNPO9BN101
+"PCB DECAL" C0603
+"LCSC Part Name" 100pF ±5% 50V
+"Supplier Part" C14665
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" CC0603JRNPO9BN101
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20181008/C309499_21CC21451B82C39E3D92150FD6B30293.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" ac125912035d415993ca9572d50418b1
+"3D Model Title" C0603_L1.6-W0.8-H0.8
+"3D Model Transform" 62.992,31.496,0,0,0,0,0,0,0
+"Value" 100pF
+"Tolerance" ±5%
+"Voltage Rated" 50V
+"Temperature Coefficient" NP0
+"Description" 容值:100pF;精度:±5%;额定电压:50V;材质(温度系数):NP0;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge14
+0 50 10 0 4
+1 50 10 0 4
+D1 SMAJ15CA_C1509527 3500 1450 90 0 100 10 100 10 3 29 2 0 0 30
+"Default Font"
+"Default Font"
+-50 200 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-250 450 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-250 450 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" SMAJ12CA
+"Symbol" SMAJ15CA_C1509527
+"Device" SMAJ12CA_C698919
+"PCB DECAL" SMA_L4.4-W2.6-LS5.0-BI
+"LCSC Part Name" 双向TVS
+"Supplier Part" C698919
+"Manufacturer" YANGJIE(扬杰)
+"Manufacturer Part" SMAJ12CA
+"Supplier Footprint" SMA(DO-214AC)
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20190626/C400501_E5286E6D730C560E6135F16A39AD19AD.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" 88a0b00993434c679979bf3235683172
+"3D Model Title" SMA_L4.3-W2.5-H2.1-LS5.0
+"3D Model Transform" 204.724,98.425,0,0,0,0,0,0,0
+"Reverse Stand-Off Voltage (Vrwm)" 12V
+"Maximum Clamping Voltage" 19.9V
+"Peak Pulse Current (Ipp)@10/1000us" 20.1A
+"Peak Pulse Power Dissipation (Ppp)@10/1000us" 400W
+"Breakdown Voltage" 13.3V
+"Type" TVS
+"Description" 反向截止电压(Vrwm):12V;最大钳位电压:19.9V;峰值脉冲电流(Ipp)@10/1000us:20.1A;峰值脉冲功率(Ppp)@10/1000us:400W;击穿电压:13.3V;
+"Reverse Leakage Current (Ir)" 1uA
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge20
+0 50 10 0 4
+1 50 10 0 4
+U7 VC060303A100DP 7450 1650 90 0 100 10 100 10 3 29 2 0 0 30
+"Default Font"
+"Default Font"
+-250 200 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-600 600 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-600 600 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" VC060303A100DP
+"Symbol" VC060303A100DP
+"Device" VC060303A100DP
+"PCB DECAL" R0603
+"Supplier" LCSC
+"Supplier Part" C2655386
+"Manufacturer" Kyocera AVX
+"Manufacturer Part" VC060303A100DP
+"JLCPCB Part Class" Extended Part
+"LCSC Part Name" 0.1焦耳 0603压敏电阻
+"Supplier Footprint" 0603
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20230606/F25ABC06DA1414494AF73C023401BE98.pdf
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Varistor Voltage" 5V
+"Clamping Voltage" -
+"Allowable Voltage (DC)" 3.3V
+"Allowable Voltage (AC)" 2.3V
+"Peak Current" 30A
+"Maximum Energy" 0.1J
+"Typical Capatitance" 1.45nF@1kHz
+"Description" 压敏电压:5V;钳位电压:-;最大工作电压(DC):3.3V;最大工作电压(AC):2.3V;
+"Unique ID" gge19
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+R12 电阻 7000 6200 90 0 100 10 100 10 3 29 2 0 0 30
+"Default Font"
+"Default Font"
+0 -100 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-100 -100 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-100 -100 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" 10kΩ
+"Symbol" 电阻
+"Device" 0603WAF1002T5E
+"PCB DECAL" R0603
+"LCSC Part Name" 厚膜电阻 10kΩ ±1% 100mW
+"Supplier Part" C25804
+"Manufacturer" UNI-ROYAL(厚声)
+"Manufacturer Part" 0603WAF1002T5E
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Basic Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" fc143cca1e79419f9cd78b61e9279f08
+"3D Model Title" R0603
+"3D Model Transform" 31.8897,63.7794,0,90,0,0,0,0,0
+"Value" 10kΩ
+"Tolerance" ±1%
+"Power(Watts)" 100mW
+"Overload Voltage (Max)" 75V
+"Temperature Coefficient" ±100ppm/℃
+"Type" 厚膜电阻
+"Operating Temperature Range" -55℃~+155℃
+"Description" 电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+"Unique ID" gge21
+0 50 10 0 4
+1 50 10 0 4
+C8 100p 7000 5750 90 0 100 10 100 10 3 27 2 0 0 30
+"Default Font"
+"Default Font"
+-0 -150 90 3 139 10 1 "Regular 宋体"
+REF-DES
+-100 -150 90 3 139 10 1 "Regular 宋体"
+PART-TYPE
+-100 -150 90 3 139 10 1 "Regular 宋体"
+Name
+"Name" 1uF
+"Symbol" 100p
+"Device" CC0603KRX5R8BB105
+"PCB DECAL" C0603
+"LCSC Part Name" 1uF ±10% 25V
+"Supplier Part" C14664
+"Manufacturer" YAGEO(国巨)
+"Manufacturer Part" CC0603KRX5R8BB105
+"Supplier Footprint" 0603
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20160606/1465200209684.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" ac125912035d415993ca9572d50418b1
+"3D Model Title" C0603_L1.6-W0.8-H0.8
+"3D Model Transform" 62.992,31.496,0,0,0,0,0,0,0
+"Value" 1uF
+"Tolerance" ±10%
+"Voltage Rated" 25V
+"Temperature Coefficient" X5R
+"Description" 容值:1uF;精度:±10%;额定电压:25V;材质(温度系数):X5R;
+"Origin Footprint" C1206
+"Unique ID" gge22
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 50 10 0 4
+1 50 10 0 4
+Q2 NPN 5400 5300 0 0 100 10 100 10 3 29 3 0 0 30
+"Default Font"
+"Default Font"
+450 -100 0 0 139 10 1 "Regular Times New Roman"
+REF-DES
+-250 -550 0 0 139 10 1 "Regular Times New Roman"
+PART-TYPE
+-250 -550 0 0 139 10 1 "Regular Times New Roman"
+Name
+"Name" DTC143ZCA
+"Symbol" NPN
+"Device" DTC143ZCA_C15236
+"PCB DECAL" SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+"LCSC Part Name" 电流:100mA 耐压:50V
+"Supplier Part" C15236
+"Manufacturer" CJ(江苏长电/长晶)
+"Manufacturer Part" DTC143ZCA
+"Supplier Footprint" SOT-23
+"JLCPCB Part Class" Extended Part
+"Datasheet" https://atta.szlcsc.com/upload/public/pdf/source/20140809/1457707205046.pdf
+"Supplier" LCSC
+"Add into BOM" yes
+"Convert to PCB" yes
+"3D Model" c62791f0466c4ae2a892c056b845b0ca
+"3D Model Title" SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95
+"3D Model Transform" 98.425,114.173,0,180,0,0,0.0005,-0.0005,0
+"Power Dissipation (Pd)" 200mW
+"Collector-Emitter Breakdown Voltage (Vceo)" 50V
+"Transistor Type" 1个NPN-预偏置
+"Collector Current (Ic)" 100mA
+"Description" 功率(Pd):200mW;集射极击穿电压(Vceo):50V;晶体管类型:1个NPN-预偏置;集电极电流(Ic):100mA;
+"Origin Footprint" SOT23
+"Unique ID" gge23
+"Design Item ID" NPN
+"Library Name" U_PP SCH
+"Reuse Block" 
+"Group ID" 
+"Channel ID" 
+0 100 10 0 4
+1 100 10 0 4
+2 100 10 0 4
+*BUSSES*
+*OFFPAGE REFS*
+@@@O0 AC_OK $OSR_SYMS 1200 4450 0 3 0
+@@@O1 PS_ON_L $OSR_SYMS 2200 3700 0 0 2
+@@@O2 +12V $PWR_SYMS 8050 2650 0 0 0
+@@@O3 VCC_3V3 $PWR_SYMS 1950 2500 0 3 3
+@@@O4 GND $PWR_SYMS 1950 2600 0 3 2
+@@@O5 GND $PWR_SYMS 8150 2550 90 3 2
+@@@O6 GND $PWR_SYMS 5600 1450 90 3 2
+@@@O7 GND $PWR_SYMS 6550 1450 90 3 2
+@@@O8 GND $PWR_SYMS 4175 1300 90 3 2
+@@@O9 GND $PWR_SYMS 6200 950 90 3 2
+@@@O10 GND $PWR_SYMS 7000 1450 90 3 2
+@@@O11 VCC_3V3 $PWR_SYMS 7450 1750 90 0 3
+@@@O12 +12VSB $PWR_SYMS 3400 1650 0 3 1
+@@@O13 GND $PWR_SYMS 7950 5950 0 3 2
+@@@O14 GND $PWR_SYMS 9900 6050 0 0 2
+@@@O15 GND $PWR_SYMS 9800 4050 90 3 2
+@@@O16 PS_ON_L $OSR_SYMS 3850 4600 0 0 3
+@@@O17 SGND $PWR_SYMS 4850 3500 90 3 2
+@@@O18 +12V $PWR_SYMS 10150 2500 0 2 0
+@@@O19 +12V $PWR_SYMS 10150 1950 0 2 0
+@@@O20 +12V $PWR_SYMS 10150 1400 0 2 0
+@@@O21 +12V $PWR_SYMS 10150 900 0 2 0
+@@@O22 GND $PWR_SYMS 10250 800 90 3 2
+@@@O23 GND $PWR_SYMS 10250 1300 90 3 2
+@@@O24 GND $PWR_SYMS 10250 1850 90 3 2
+@@@O25 GND $PWR_SYMS 10250 2400 90 3 2
+@@@O26 AC_OK $OSR_SYMS 3850 5700 0 0 1
+@@@O27 +12V $PWR_SYMS 850 6350 0 3 0
+@@@O28 +12V $PWR_SYMS 2350 6350 0 0 0
+@@@O29 GND $PWR_SYMS 750 5350 90 3 2
+@@@O30 GND $PWR_SYMS 2450 5550 90 3 2
+@@@O31 +12VSB $PWR_SYMS 2350 5100 0 0 0
+@@@O32 PS_PRESENT $OSR_SYMS 1150 4800 0 0 4
+@@@O33 PS_PRESENT $OSR_SYMS 5400 6550 0 0 4
+@@@O34 +12VSB $PWR_SYMS 5650 7000 0 3 1
+@@@O35 PS_KILL_L $OSR_SYMS 2200 3800 0 0 2
+@@@O36 ISHARE $OSR_SYMS 1200 4200 0 3 0
+@@@O37 PSINTERRUPT_L $OSR_SYMS 1200 4050 0 3 0
+@@@O38 REMOTESENSE- $OSR_SYMS 2200 4550 0 0 2
+@@@O39 REMOTESENSE+ $OSR_SYMS 2200 4750 0 0 2
+@@@O40 +12V $PWR_SYMS 8050 2100 0 0 0
+@@@O41 GND $PWR_SYMS 8150 2000 90 3 2
+@@@O42 +12V $PWR_SYMS 8050 1550 0 0 0
+@@@O43 GND $PWR_SYMS 8150 1450 90 3 2
+@@@O44 PS_KILL_L $OSR_SYMS 5650 5550 0 3 2
+@@@O45 VCC_3V3 $PWR_SYMS 7000 6350 90 0 3
+@@@O46 VCC_3V3 $PWR_SYMS 9800 3600 90 0 3
+@@@O47 GND $PWR_SYMS 7050 5300 90 3 2
+@@@O48 GND $PWR_SYMS 7150 5050 90 3 2
+@@@O49 GND $PWR_SYMS 7450 1350 90 3 2
+@@@O50 GND $PWR_SYMS 3500 1250 90 3 2
+@@@O51 GND $PWR_SYMS 6000 6000 90 3 2
+@@@O52 VCC_3V3 $PWR_SYMS 7600 6350 90 0 3
+@@@O53 GND $PWR_SYMS 7000 5550 90 3 2
+@@@O54 SW2 @TERM 5050 5100 0 0 -2
+@@@O55 SW2 @TERM 7800 5350 0 0 -2
+@@@O56 SW @TERM 7800 5450 0 0 -2
+@@@O57 PS_KILL_L @TERM 6650 5550 0 0 -2
+@@@O58 SDA @TERM 9250 3550 0 0 -2
+@@@O59 SCL @TERM 9350 3550 0 0 -2
+@@@O60 SDA_OLED @TERM 8350 3550 0 0 -2
+@@@O61 EN @TERM 10050 3900 0 0 -2
+@@@O62 BOOT @TERM 10050 4000 0 0 -2
+@@@O63 BOOT @TERM 10200 4650 0 0 -2
+@@@O64 SGND @TERM 6300 4550 0 0 -2
+@@@O65 SGND @TERM 4850 3750 0 0 -2
+@@@O66 AC_OK @TERM 4850 5700 0 0 -2
+@@@O67 SGND @TERM 4100 5150 0 0 -2
+@@@O68 SGND @TERM 950 4300 0 0 -2
+@@@O69 SGND @TERM 950 3900 0 0 -2
+@@@O70 SGND @TERM 2500 4600 0 0 -2
+@@@O71 SGND @TERM 2500 4400 0 0 -2
+@@@O72 SGND @TERM 2500 4200 0 0 -2
+@@@O73 SGND @TERM 2500 4000 0 0 -2
+@@@O74 SW @TERM 5150 4050 0 0 -2
+@@@O75 SW @TERM 5700 4050 0 0 -2
+@@@O76 RX0 @TERM 10050 3800 0 0 -2
+@@@O77 TX0 @TERM 10050 3700 0 0 -2
+@@@O78 RX0 @TERM 10350 5550 0 0 -2
+@@@O79 TX0 @TERM 10350 5650 0 0 -2
+@@@O80 SCL_OLED @TERM 10350 5750 0 0 -2
+@@@O81 SCL @TERM 2500 4300 0 0 -2
+@@@O82 SDA @TERM 2500 4100 0 0 -2
+@@@O83 SDA_OLED @TERM 950 2300 0 0 -2
+@@@O84 SCL_OLED @TERM 950 2400 0 0 -2
+*TIEDOTS*
+@@@D0 7000 5950
+@@@D1 6300 5550
+@@@D2 5700 5550
+@@@D3 6300 4700
+@@@D4 4850 3650
+@@@D5 4150 5700
+@@@D6 4500 5700
+@@@D7 4150 5250
+@@@D8 6000 6000
+@@@D9 5650 6550
+@@@D10 5650 6550
+@@@D11 2100 5100
+@@@D12 2100 5550
+@@@D13 2100 5600
+@@@D14 2100 5700
+@@@D15 2100 5800
+@@@D16 2100 5500
+@@@D17 2100 5400
+@@@D18 2100 5300
+@@@D19 1300 5350
+@@@D20 1300 5400
+@@@D21 1300 5500
+@@@D22 1300 5600
+@@@D23 1300 5700
+@@@D24 1300 5800
+@@@D25 1300 5300
+@@@D26 1300 5200
+@@@D27 1300 5100
+@@@D28 2100 6350
+@@@D29 2100 6300
+@@@D30 2100 6200
+@@@D31 2100 6100
+@@@D32 2100 6400
+@@@D33 2100 6500
+@@@D34 2100 6600
+@@@D35 1300 6350
+@@@D36 1300 6400
+@@@D37 1300 6500
+@@@D38 1300 6600
+@@@D39 1300 6300
+@@@D40 1300 6200
+@@@D41 1300 6100
+@@@D42 3500 1650
+@@@D43 9900 6050
+@@@D44 5350 4050
+@@@D45 6200 1750
+@@@D46 6550 1750
+@@@D47 7000 1750
+@@@D48 7450 1750
+@@@D49 4175 1650
+@@@D50 4425 1650
+@@@D51 6200 1350
+@@@D52 5600 1750
+*CONNECTION*
+*SIGNAL* SW2 0 0
+@@@O54 Q2.1 2 0
+5050 5100
+5200 5100
+@@@O55 U2.7 2 0
+7800 5350
+7950 5350
+*SIGNAL* GND 0 0
+@@@O53 C8.1 2 0
+7000 5550
+7000 5550
+@@@O50 D1.1 2 0
+3500 1250
+3500 1250
+@@@O49 U7.1 2 0
+7450 1350
+7450 1350
+S2.1 @@@O48 2 0
+7150 5150
+7150 5050
+@@@O47 S1.1 3 0
+7050 5300
+7050 5400
+7100 5400
+@@@O4 OLED.1 2 0
+1950 2600
+1950 2600
+U6.1 @@@O43 2 0
+8050 1450
+8150 1450
+U5.1 @@@O41 2 0
+8050 2000
+8150 2000
+@@@O5 U4.1 2 0
+8150 2550
+8050 2550
+@@@D8 @@@O51 2 0
+6000 6000
+6000 6000
+R4.1 @@@D8 3 0
+5650 6100
+5650 6000
+6000 6000
+@@@D8 C1.2 2 0
+6000 6000
+6000 6100
+@@@O30 @@@D12 2 0
+2450 5550
+2100 5550
+@@@D13 U1.P25 2 0
+2100 5600
+2100 5600
+@@@D13 @@@D12 2 0
+2100 5600
+2100 5550
+@@@D14 U1.P26 2 0
+2100 5700
+2100 5700
+@@@D14 @@@D13 2 0
+2100 5700
+2100 5600
+@@@D15 U1.P27 2 0
+2100 5800
+2100 5800
+@@@D15 @@@D14 2 0
+2100 5800
+2100 5700
+U1.P28 @@@D15 2 0
+2100 5900
+2100 5800
+@@@D16 U1.P24 2 0
+2100 5500
+2100 5500
+@@@D12 @@@D16 2 0
+2100 5550
+2100 5500
+@@@D17 U1.P23 2 0
+2100 5400
+2100 5400
+@@@D16 @@@D17 2 0
+2100 5500
+2100 5400
+@@@D18 U1.P22 2 0
+2100 5300
+2100 5300
+@@@D17 @@@D18 2 0
+2100 5400
+2100 5300
+@@@D18 U1.P21 2 0
+2100 5300
+2100 5200
+@@@O29 @@@D19 2 0
+750 5350
+1300 5350
+@@@D20 U1.P14 2 0
+1300 5400
+1300 5400
+@@@D20 @@@D19 2 0
+1300 5400
+1300 5350
+@@@D21 U1.P13 2 0
+1300 5500
+1300 5500
+@@@D21 @@@D20 2 0
+1300 5500
+1300 5400
+@@@D22 U1.P12 2 0
+1300 5600
+1300 5600
+@@@D22 @@@D21 2 0
+1300 5600
+1300 5500
+@@@D23 U1.P11 2 0
+1300 5700
+1300 5700
+@@@D23 @@@D22 2 0
+1300 5700
+1300 5600
+@@@D24 U1.P10 2 0
+1300 5800
+1300 5800
+@@@D24 @@@D23 2 0
+1300 5800
+1300 5700
+U1.P9 @@@D24 2 0
+1300 5900
+1300 5800
+@@@D25 U1.P15 2 0
+1300 5300
+1300 5300
+@@@D19 @@@D25 2 0
+1300 5350
+1300 5300
+@@@D26 U1.P16 2 0
+1300 5200
+1300 5200
+@@@D25 @@@D26 2 0
+1300 5300
+1300 5200
+@@@D27 U1.P17 2 0
+1300 5100
+1300 5100
+@@@D26 @@@D27 2 0
+1300 5200
+1300 5100
+@@@D27 U1.P18 2 0
+1300 5100
+1300 5000
+DC1.4 @@@O25 2 0
+10150 2400
+10250 2400
+DC2.4 @@@O24 2 0
+10150 1850
+10250 1850
+DC3.4 @@@O23 2 0
+10150 1300
+10250 1300
+DC4.4 @@@O22 2 0
+10150 800
+10250 800
+@@@O13 U2.1 2 0
+7950 5950
+7950 5950
+@@@O10 C6.1 2 0
+7000 1450
+7000 1450
+@@@O7 C4.2 2 0
+6550 1450
+6550 1450
+@@@O8 C5.2 2 0
+4175 1300
+4175 1300
+@@@O9 R10.1 2 0
+6200 950
+6200 950
+@@@D43 @@@O14 2 0
+9900 6050
+9900 6050
+U2.41 @@@D43 2 0
+9750 6050
+9900 6050
+@@@D43 U2.40 3 0
+9900 6050
+9900 5950
+9750 5950
+UART.GND @@@O15 3 0
+10450 4100
+9800 4100
+9800 4050
+U3.1 @@@O6 3 0
+5550 1550
+5600 1550
+5600 1450
+*SIGNAL* VCC_3V3 0 0
+U2.2 @@@O52 3 0
+7950 5850
+7600 5850
+7600 6350
+@@@O45 R12.2 2 0
+7000 6350
+7000 6400
+UART.VCC @@@O46 2 0
+10450 3600
+9800 3600
+@@@O3 OLED.2 2 0
+1950 2500
+1950 2500
+*SIGNAL* PS_ON_L 0 0
+Q1.3 @@@O16 3 0
+4850 4450
+4850 4600
+3850 4600
+@@@O1 U1.S13 2 0
+2200 3700
+2100 3700
+*SIGNAL* SW 0 0
+U2.6 @@@O56 2 0
+7950 5450
+7800 5450
+@@@D44 Q1.1 2 0
+5350 4050
+5350 4050
+@@@D44 @@@O74 2 0
+5350 4050
+5150 4050
+@@@O75 @@@D44 2 0
+5700 4050
+5350 4050
+*SIGNAL* EN 0 0
+@@@D0 C8.2 2 0
+7000 5950
+7000 5950
+@@@D0 R12.1 2 0
+7000 5950
+7000 6000
+@@@D0 U2.3 4 0
+7000 5950
+7450 5950
+7450 5750
+7950 5750
+UART.EN @@@O61 2 0
+10450 3900
+10050 3900
+*SIGNAL* PS_KILL_L 0 0
+@@@D1 C7.2 2 0
+6300 5550
+6300 5550
+@@@O57 @@@D1 2 0
+6650 5550
+6300 5550
+@@@D1 @@@D2 2 0
+6300 5550
+5700 5550
+@@@O44 @@@D2 2 0
+5650 5550
+5700 5550
+@@@D2 Q2.3 2 0
+5700 5550
+5700 5500
+U1.S14 @@@O35 2 0
+2100 3800
+2200 3800
+*SIGNAL* SDA 0 0
+U2.24 @@@O58 2 0
+9250 4150
+9250 3550
+@@@O82 U1.S17 2 0
+2500 4100
+2100 4100
+*SIGNAL* SCL 0 0
+@@@O59 U2.25 2 0
+9350 3550
+9350 4150
+@@@O81 U1.S19 2 0
+2500 4300
+2100 4300
+*SIGNAL* $$$0 0 0
+U2.4 S1.2 3 0
+7950 5650
+7700 5650
+7700 5400
+U2.5 S2.2 3 0
+7950 5550
+7750 5550
+7750 5150
+C3.1 U3.6 4 0
+5050 2000
+4800 2000
+4800 1750
+4850 1750
+C5.1 @@@D49 2 0
+4175 1600
+4175 1650
+R7.1 @@@D49 2 0
+3975 1650
+4175 1650
+@@@D50 R9.2 2 0
+4425 1650
+4425 1650
+@@@D49 @@@D50 2 0
+4175 1650
+4425 1650
+@@@D50 U3.3 2 0
+4425 1650
+4850 1650
+@@@D51 R10.2 2 0
+6200 1350
+6200 1350
+@@@D51 R8.1 2 0
+6200 1350
+6200 1350
+U3.4 @@@D51 4 0
+5550 1650
+5800 1650
+5800 1350
+6200 1350
+R9.1 U3.5 4 0
+4425 1250
+4725 1250
+4725 1550
+4850 1550
+U3.2 @@@D52 2 0
+5550 1750
+5600 1750
+@@@D52 C3.2 3 0
+5600 1750
+5600 2000
+5350 2000
+L1.1 @@@D52 2 0
+5675 1750
+5600 1750
+Q2.2 R11.2 2 0
+5700 4700
+5800 4700
+*SIGNAL* SDA_OLED 0 0
+@@@O60 U2.15 2 0
+8350 3550
+8350 4150
+OLED.4 @@@O83 2 0
+1950 2300
+950 2300
+*SIGNAL* BOOT 0 0
+UART.BOOT @@@O62 2 0
+10450 4000
+10050 4000
+@@@O63 U2.27 2 0
+10200 4650
+9750 4650
+*SIGNAL* SGND 0 0
+C7.1 @@@D3 2 0
+6300 5150
+6300 4700
+@@@D3 R11.1 2 0
+6300 4700
+6200 4700
+@@@O64 @@@D3 2 0
+6300 4550
+6300 4700
+@@@D4 Q1.2 2 0
+4850 3650
+4850 3650
+@@@O17 @@@D4 2 0
+4850 3500
+4850 3650
+@@@D4 @@@O65 2 0
+4850 3650
+4850 3750
+@@@D7 @@@O67 3 0
+4150 5250
+4100 5250
+4100 5150
+@@@D7 R6.2 2 0
+4150 5250
+4150 5300
+C2.1 @@@D7 2 0
+4500 5250
+4150 5250
+@@@O68 U1.S6 2 0
+950 4300
+1300 4300
+U1.S10 @@@O69 2 0
+1300 3900
+950 3900
+U1.S22 @@@O70 2 0
+2100 4600
+2500 4600
+U1.S20 @@@O71 2 0
+2100 4400
+2500 4400
+U1.S18 @@@O72 2 0
+2100 4200
+2500 4200
+U1.S16 @@@O73 2 0
+2100 4000
+2500 4000
+*SIGNAL* +12V 0 0
+U6.2 @@@O42 2 0
+8050 1550
+8050 1550
+U5.2 @@@O40 2 0
+8050 2100
+8050 2100
+@@@O2 U4.2 2 0
+8050 2650
+8050 2650
+@@@O28 @@@D28 2 0
+2350 6350
+2100 6350
+@@@D29 U1.P32 2 0
+2100 6300
+2100 6300
+@@@D28 @@@D29 2 0
+2100 6350
+2100 6300
+@@@D30 U1.P31 2 0
+2100 6200
+2100 6200
+@@@D29 @@@D30 2 0
+2100 6300
+2100 6200
+@@@D31 U1.P30 2 0
+2100 6100
+2100 6100
+@@@D30 @@@D31 2 0
+2100 6200
+2100 6100
+@@@D31 U1.P29 2 0
+2100 6100
+2100 6000
+@@@D32 U1.P33 2 0
+2100 6400
+2100 6400
+@@@D32 @@@D28 2 0
+2100 6400
+2100 6350
+@@@D33 U1.P34 2 0
+2100 6500
+2100 6500
+@@@D33 @@@D32 2 0
+2100 6500
+2100 6400
+@@@D34 U1.P35 2 0
+2100 6600
+2100 6600
+@@@D34 @@@D33 2 0
+2100 6600
+2100 6500
+U1.P36 @@@D34 2 0
+2100 6700
+2100 6600
+@@@O27 @@@D35 2 0
+850 6350
+1300 6350
+@@@D36 U1.P4 2 0
+1300 6400
+1300 6400
+@@@D36 @@@D35 2 0
+1300 6400
+1300 6350
+@@@D37 U1.P3 2 0
+1300 6500
+1300 6500
+@@@D37 @@@D36 2 0
+1300 6500
+1300 6400
+@@@D38 U1.P2 2 0
+1300 6600
+1300 6600
+@@@D38 @@@D37 2 0
+1300 6600
+1300 6500
+U1.P1 @@@D38 2 0
+1300 6700
+1300 6600
+@@@D39 U1.P5 2 0
+1300 6300
+1300 6300
+@@@D35 @@@D39 2 0
+1300 6350
+1300 6300
+@@@D40 U1.P6 2 0
+1300 6200
+1300 6200
+@@@D39 @@@D40 2 0
+1300 6300
+1300 6200
+@@@D41 U1.P7 2 0
+1300 6100
+1300 6100
+@@@D40 @@@D41 2 0
+1300 6200
+1300 6100
+@@@D41 U1.P8 2 0
+1300 6100
+1300 6000
+@@@O21 DC4.3 2 0
+10150 900
+10150 900
+@@@O20 DC3.3 2 0
+10150 1400
+10150 1400
+DC2.3 @@@O19 2 0
+10150 1950
+10150 1950
+@@@O18 DC1.3 2 0
+10150 2500
+10150 2500
+*SIGNAL* AC_OK 0 0
+@@@D5 R6.1 2 0
+4150 5700
+4150 5700
+@@@O26 @@@D5 2 0
+3850 5700
+4150 5700
+@@@D5 @@@D6 2 0
+4150 5700
+4500 5700
+@@@D6 C2.2 2 0
+4500 5700
+4500 5650
+@@@D6 @@@O66 2 0
+4500 5700
+4850 5700
+U1.S5 @@@O0 3 0
+1300 4400
+1200 4400
+1200 4450
+*SIGNAL* REMOTESENSE+ 0 0
+@@@O39 U1.S23 3 0
+2200 4750
+2200 4700
+2100 4700
+*SIGNAL* REMOTESENSE- 0 0
+@@@O38 U1.S21 3 0
+2200 4550
+2100 4550
+2100 4500
+*SIGNAL* PSINTERRUPT_L 0 0
+@@@O37 U1.S9 3 0
+1200 4050
+1200 4000
+1300 4000
+*SIGNAL* ISHARE 0 0
+U1.S7 @@@O36 2 0
+1300 4200
+1200 4200
+*SIGNAL* +12VSB 0 0
+@@@O34 R1.2 2 0
+5650 7000
+5650 7000
+@@@D11 U1.P20 2 0
+2100 5100
+2100 5100
+U1.P19 @@@D11 2 0
+2100 5000
+2100 5100
+@@@D11 @@@O31 2 0
+2100 5100
+2350 5100
+@@@D42 D1.2 2 0
+3500 1650
+3500 1650
+R7.2 @@@D42 2 0
+3575 1650
+3500 1650
+@@@O12 @@@D42 2 0
+3400 1650
+3500 1650
+*SIGNAL* PS_PRESENT 0 0
+@@@D9 @@@D10 2 0
+5650 6550
+5650 6550
+@@@D9 @@@O33 2 0
+5650 6550
+5400 6550
+@@@D9 R1.1 2 0
+5650 6550
+5650 6600
+@@@D10 R4.2 2 0
+5650 6550
+5650 6500
+C1.1 @@@D10 3 0
+6000 6500
+6000 6550
+5650 6550
+@@@O32 U1.S1 2 0
+1150 4800
+1300 4800
+*SIGNAL* RX0 0 0
+@@@O76 UART.RXD 2 0
+10050 3800
+10450 3800
+U2.36 @@@O78 3 0
+9750 5550
+9900 5550
+10350 5550
+*SIGNAL* TX0 0 0
+@@@O77 UART.TXD 2 0
+10050 3700
+10450 3700
+U2.37 @@@O79 3 0
+9750 5650
+9900 5650
+10350 5650
+*SIGNAL* SCL_OLED 0 0
+U2.38 @@@O80 3 0
+9750 5750
+9900 5750
+10350 5750
+OLED.3 @@@O84 2 0
+1950 2400
+950 2400
+*SIGNAL* [] 0 0
+@@@D45 R8.2 2 0
+6200 1750
+6200 1750
+@@@D46 C4.1 2 0
+6550 1750
+6550 1750
+@@@D45 @@@D46 2 0
+6200 1750
+6550 1750
+L1.2 @@@D45 2 0
+6075 1750
+6200 1750
+@@@D47 C6.2 2 0
+7000 1750
+7000 1750
+@@@D46 @@@D47 2 0
+6550 1750
+7000 1750
+@@@D48 @@@O11 2 0
+7450 1750
+7450 1750
+@@@D48 U7.2 2 0
+7450 1750
+7450 1750
+@@@D47 @@@D48 2 0
+7000 1750
+7450 1750
+*NETNAMES*
+AC_OK @@@O0 -360 45 0 6 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PS_ON_L @@@O1 360 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O2 120 45 0 2 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+VCC_3V3 @@@O3 -120 50 0 3 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O4 -120 50 0 3 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O5 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O6 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O7 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O8 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O9 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O10 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+VCC_3V3 @@@O11 0 120 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12VSB @@@O12 -120 -50 0 1 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O13 -120 -50 0 1 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O14 120 -50 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O15 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PS_ON_L @@@O16 -360 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND @@@O17 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O18 120 -45 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O19 120 -45 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O20 120 -45 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O21 120 -45 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O22 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O23 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O24 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O25 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+AC_OK @@@O26 -360 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O27 -120 -45 0 1 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O28 120 -45 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O29 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O30 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12VSB @@@O31 120 -45 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PS_PRESENT @@@O32 -280 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PS_PRESENT @@@O33 -280 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12VSB @@@O34 -120 -45 0 1 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PS_KILL_L @@@O35 360 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+ISHARE @@@O36 -360 45 0 6 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PSINTERRUPT_L @@@O37 -360 45 0 6 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+REMOTESENSE- @@@O38 360 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+REMOTESENSE+ @@@O39 360 -45 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O40 120 45 0 2 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O41 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
++12V @@@O42 120 45 0 2 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O43 0 -220 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PS_KILL_L @@@O44 -360 45 0 6 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+VCC_3V3 @@@O45 0 120 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+VCC_3V3 @@@O46 0 120 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O47 -100 -200 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O48 -100 -200 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O49 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O50 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O51 0 -210 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+VCC_3V3 @@@O52 0 120 0 4 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+GND @@@O53 -100 -200 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SW2 @@@O54 0 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SW2 @@@O55 0 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SW U2.6 -150 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+EN U2.3 -850 200 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+PS_KILL_L Q2.3 600 50 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SDA U2.24 0 -550 90 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SCL @@@O59 0 50 90 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+$$$0 U2.4 -125 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+$$$0 U2.5 -50 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SDA_OLED @@@O60 0 50 90 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+EN UART.EN -350 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+BOOT UART.BOOT -350 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+BOOT @@@O63 -300 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND R11.1 100 -150 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+AC_OK C2.2 50 50 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND R6.2 -50 -150 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND @@@O68 0 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND U1.S10 -350 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND U1.S22 200 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND U1.S20 200 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND U1.S18 200 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SGND U1.S16 200 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SW @@@O75 -200 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+RX0 @@@O76 50 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+TX0 @@@O77 50 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+RX0 U2.36 150 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+TX0 U2.37 150 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SCL_OLED U2.38 150 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SCL @@@O81 -150 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SDA @@@O82 -150 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SDA_OLED OLED.4 -550 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+SCL_OLED OLED.3 -550 0 0 0 0      0      0 0 -1 10 97 "Regular DOUYU Font"
+
+
+*END*
