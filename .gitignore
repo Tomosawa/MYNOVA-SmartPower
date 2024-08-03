@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/MYNOVA_POWER/.vscode
+/MYNOVA_POWER/build
