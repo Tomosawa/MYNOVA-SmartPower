@@ -27,6 +27,14 @@
 <center>
 
 <p float="left">
+  <img src="images/7.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/8.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/9.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/10.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
   <img src="images/1.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
   <img src="images/2.jpg" alt="Image 2" width="45%" />
 </p>
@@ -62,6 +70,7 @@
 本程序在DELL的以下型号电源测试通过：
 - E750E-S0
 - E1100E-S0
+- L1100E-S0
 - D2000E-S2(EPP)
 
 其它型号也类似，由于我手头没有更多的型号了，所以请大家自行测试。
@@ -86,6 +95,13 @@
 - 安装ESPAsyncWebServer服务器组件
 - 安装ArduinoJson库
 - 安装ESP32TimerInterrupt库
+
+## 固件烧录方法
+1. 根据您的ESP32-S3芯片的闪存大小（16MB或8MB）的不同，在[Release](https://github.com/Tomosawa/MYNOVA-SmartPower/releases)页面下载对应的bin文件。
+2. 下载官方的[flash download tool](https://www.espressif.com.cn/zh-hans/support/download/other-tools)或者使用[esptool.py](https://github.com/espressif/esptool)命令行工具。
+3. 选择对应的bin固件文件，设定烧录偏移地址为0x0000，开始烧录即可。
+
+![flashdownloadtools](images/flashtools.png)
 
 ## 贡献指南
 

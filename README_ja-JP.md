@@ -29,6 +29,14 @@
 <center>
 
 <p float="left">
+  <img src="images/7.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/8.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/9.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/10.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
   <img src="images/1.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
   <img src="images/2.jpg" alt="Image 2" width="45%" />
 </p>
@@ -64,6 +72,7 @@
 このファームウェアは以下のDELL電源でテスト済みです：
 - E750E-S0
 - E1100E-S0
+- L1100E-S0
 - D2000E-S2(EPP)
 
 他のモデルも同様ですが、手元にこれ以上のモデルがないため、ご自身でのテストをお願いします。
@@ -88,6 +97,14 @@
 - ESPAsyncWebServerのインストール
 - ArduinoJsonライブラリのインストール
 - ESP32TimerInterruptライブラリのインストール
+
+## ファームウェアの書き込み方法
+
+1. ESP32-S3チップのフラッシュメモリサイズ（16MBまたは8MB）に応じて、[Release](https://github.com/Tomosawa/MYNOVA-SmartPower/releases)ページから対応するbinファイルをダウンロードしてください。
+2. 公式の[flash download tool](https://www.espressif.com/en/support/download/other-tools)をダウンロードするか、[esptool.py](https://github.com/espressif/esptool)コマンドラインツールを使用してください。
+3. 対応するbinファームウェアファイルを選択し、書き込みオフセットアドレスを0x0000に設定して、書き込みを開始してください。
+
+![flashdownloadtools](images/flashtools.png)
 
 ## 貢献ガイドライン
 

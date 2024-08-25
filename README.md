@@ -30,6 +30,14 @@ Completed product can be seen in the following image:
 <center>
 
 <p float="left">
+  <img src="images/7.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/8.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
+  <img src="images/9.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
+  <img src="images/10.jpg" alt="Image 2" width="45%" />
+</p>
+<p float="left">
   <img src="images/1.jpg" alt="Image 1" width="45%" style="margin-right:10px;"/>
   <img src="images/2.jpg" alt="Image 2" width="45%" />
 </p>
@@ -65,6 +73,7 @@ Or chips from the ESP32-S3 series. Depending on flash capacity of the chip, defi
 This firmware has been tested on the following DELL PSU models:
 - E750E-S0
 - E1100E-S0
+- L1100E-S0
 - D2000E-S2(EPP)
 
 Other models should be similar; further testing required as I lack additional models.
@@ -89,6 +98,12 @@ Other models should be similar; further testing required as I lack additional mo
 - Install ESPAsyncWebServer server component.
 - Install ArduinoJson library.
 - Install ESP32TimerInterrupt library.
+
+## Firmware Flashing Method
+
+1. Depending on the flash size of your ESP32-S3 chip (16MB or 8MB), download the corresponding bin file from the [Release](https://github.com/Tomosawa/MYNOVA-SmartPower/releases) page.
+2. Download the official [flash download tools](https://www.espressif.com/en/support/download/other-tools) or use the [esptool.py](https://github.com/espressif/esptool) command line tool.
+3. Select the corresponding bin firmware file, set the flashing offset address to 0x0000, and start the flashing process.
 
 ## Contribution Guidelines
 
