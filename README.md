@@ -105,6 +105,8 @@ Other models should be similar; further testing required as I lack additional mo
 2. Download the official [flash download tools](https://www.espressif.com/en/support/download/other-tools) or use the [esptool.py](https://github.com/espressif/esptool) command line tool.
 3. Select the corresponding bin firmware file, set the flashing offset address to 0x0000, and start the flashing process.
 
+![flashdownloadtools](images/flashtools.png)
+
 ## Contribution Guidelines
 
 Contributions to this project are welcome. Please follow these guidelines:

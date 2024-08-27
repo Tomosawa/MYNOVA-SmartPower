@@ -102,7 +102,8 @@
 
 1. ESP32-S3チップのフラッシュメモリサイズ（16MBまたは8MB）に応じて、[Release](https://github.com/Tomosawa/MYNOVA-SmartPower/releases)ページから対応するbinファイルをダウンロードしてください。
 2. 公式の[flash download tool](https://www.espressif.com/en/support/download/other-tools)をダウンロードするか、[esptool.py](https://github.com/espressif/esptool)コマンドラインツールを使用してください。
-3. 対応するbinファームウェアファイルを選択し、書き込みオフセットアドレスを0x0000に設定して、書き込みを開始してください。
+3. 対応する.binファイルを選択し、書き込みオフセットアドレスを`0x0000`に設定してください。
+4. `DoNotChgBin`オプションを選択せずに、書き込みを開始してください。
 
 ![flashdownloadtools](images/flashtools.png)
 
