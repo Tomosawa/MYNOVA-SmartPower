@@ -103,7 +103,8 @@ Other models should be similar; further testing required as I lack additional mo
 
 1. Depending on the flash size of your ESP32-S3 chip (16MB or 8MB), download the corresponding bin file from the [Release](https://github.com/Tomosawa/MYNOVA-SmartPower/releases) page.
 2. Download the official [flash download tools](https://www.espressif.com/en/support/download/other-tools) or use the [esptool.py](https://github.com/espressif/esptool) command line tool.
-3. Select the corresponding bin firmware file, set the flashing offset address to 0x0000, and start the flashing process.
+3. Select the appropriate `.bin` firmware file and set the flash offset address to `0x0000`.
+4. Do not check the DoNotChgBin option, then click start to begin the flashing process.
 
 ![flashdownloadtools](images/flashtools.png)
 
