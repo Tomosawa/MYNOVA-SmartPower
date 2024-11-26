@@ -3,7 +3,7 @@
     <v-main>
       <v-app-bar>
         <template v-slot:prepend>
-          <v-app-bar-nav-icon><img src="@/assets/menu.svg" /></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon icon="menu"></v-app-bar-nav-icon>
         </template>
 
         <v-app-bar-title>{{title}}</v-app-bar-title>
@@ -22,19 +22,19 @@
         <v-btn id="btn-powerinfo" @click="naviBarClick($event)">
           <!-- <img src="@/assets/powerinfo.svg" width="24" height="24" class="svg-icon"/> -->
           <inline-svg :src="powerinfo" width="24" height="24"></inline-svg>
-          电源信息
+          <span>电源信息</span>
         </v-btn>
 
         <v-btn id="btn-powersetting" @click="naviBarClick($event)">
           <!-- <img src="@/assets/powersetting.svg" width="24" height="24" class="svg-icon"/> -->
           <inline-svg :src="powersetting" width="24" height="24"></inline-svg>
-          电源设置
+          <span>电源设置</span>
         </v-btn>
 
         <v-btn id="btn-wificonfig" @click="naviBarClick($event)">
           <!-- <img src="@/assets/wifisetting.svg" width="24" height="24" class="svg-icon"/> -->
           <inline-svg :src="wifisetting" width="24" height="24"></inline-svg>
-          WIFI设置
+          <span>WIFI设置</span>
         </v-btn>
 
       </v-bottom-navigation>
@@ -124,7 +124,45 @@
           }
           next();
         });
+        
+        // 阻止双指缩放
+        document.addEventListener('gesturestart', function(event) {
+          event.preventDefault();
+        });
 
+        // 阻止双击放大
+        let lastTouchEnd = 0;
+        document.addEventListener('touchend', function(event) {
+          const now = Date.now();
+          if (now - lastTouchEnd <= 300) {
+            event.preventDefault();
+          }
+          lastTouchEnd = now;
+        }, { passive: false });
+
+        // 阻止双指缩放
+        document.addEventListener('touchstart', function(event) {
+          if (event.touches.length > 1) {
+            event.preventDefault();
+          }
+        }, { passive: false });
+
+        // 阻止双指缩放和移动时的缩放
+        document.addEventListener('touchmove', function(event) {
+          if (event.touches.length > 1) {
+            event.preventDefault();
+          }
+        }, { passive: false });
+
+        // 阻止双指缩放的另一种情况
+        document.addEventListener('gesturechange', function(event) {
+          event.preventDefault();
+        });
+
+        // 阻止双指缩放结束
+        document.addEventListener('gestureend', function(event) {
+          event.preventDefault();
+        });
       });
       onUpdated(() => {
         console.log("onUpdated");

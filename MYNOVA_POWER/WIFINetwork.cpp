@@ -4,15 +4,14 @@
  * All rights reserved
  */
 #include "WIFINetwork.h"
-#include <Preferences.h>
 #include <ArduinoJson.h>
+#include "Settings.h"
+extern Settings settings;
 
 WIFINetwork::WIFINetwork() : AP_local_ip(10, 0, 10, 1),  // IP地址
                              AP_gateway(10, 0, 10, 1),   // 网关地址
                              AP_subnet(255, 255, 255, 0) // 子网掩码
 {
-    AP_ssid = "MYNOVA";
-    AP_password = "MyNova123";
 }
 
 void WIFINetwork::init()
@@ -23,12 +22,12 @@ void WIFINetwork::init()
 
 void WIFINetwork::startAP()
 {
-    AP_State = WiFi.softAP(AP_ssid, AP_password);
+    settings.enable_AP = WiFi.softAP(settings.AP_ssid, settings.AP_password);
 }
 
 void WIFINetwork::startWIFI()
 {
-    WiFi.begin(wifi_ssid, wifi_password); // 连接WIFI
+    WiFi.begin(settings.ST_ssid, settings.ST_password); // 连接WIFI
 }
 
 IPAddress WIFINetwork::getWIFIIP()
@@ -51,7 +50,7 @@ void WIFINetwork::disconnectWIFI()
 }
 void WIFINetwork::disconnectAP()
 {
-    AP_State = !WiFi.softAPdisconnect();
+    WiFi.softAPdisconnect();
 }
 
 wl_status_t WIFINetwork::getWIFIState()
@@ -92,36 +91,9 @@ String WIFINetwork::getWIFIStateInfo()
         state = "";
         break;
     }
-    if (wifi_ssid.isEmpty())
+    if (settings.ST_ssid.isEmpty())
         state = "NOT_CONFIG";
     return state;
-}
-
-void WIFINetwork::SaveConfig()
-{
-    Preferences prefs;
-    prefs.begin("MYNOVA");
-
-    prefs.putString("WIFI_SSID", wifi_ssid);
-    prefs.putString("WIFI_PASSWORD", wifi_password);
-
-    prefs.end();
-}
-
-bool WIFINetwork::ReadConfig()
-{
-    Preferences prefs;
-    prefs.begin("MYNOVA");
-
-    wifi_ssid = prefs.getString("WIFI_SSID", "");
-    wifi_password = prefs.getString("WIFI_PASSWORD", "");
-
-    prefs.end();
-
-    if (wifi_ssid.isEmpty())
-        return false;
-
-    return true;
 }
 
 String WIFINetwork::getAllSSIDJson()
@@ -132,8 +104,6 @@ String WIFINetwork::getAllSSIDJson()
     int networksCount = WiFi.scanComplete();
 
     JsonDocument doc;
-    doc["WIFI_SSID"] = wifi_ssid;
-    doc["WIFI_PASSWORD"] = wifi_password;
     // 创建JsonArray
     JsonArray networks = doc["WIFI_SCAN"].to<JsonArray>();
 

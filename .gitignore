@@ -30,5 +30,7 @@
 *.exe
 *.out
 *.app
+*.bin
 /MYNOVA_POWER/.vscode
 /MYNOVA_POWER/build
+.DS_Store

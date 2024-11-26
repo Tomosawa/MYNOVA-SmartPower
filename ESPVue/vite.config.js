@@ -10,6 +10,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [
     Vue({
       template: { transformAssetUrls }
@@ -44,6 +45,7 @@ export default defineConfig({
   server: {
     host:'0.0.0.0',
     port: 3000,
+    historyApiFallback: true,
     proxy: {
       '/api/': {
         target: 'http://10.0.10.1', //目标域名

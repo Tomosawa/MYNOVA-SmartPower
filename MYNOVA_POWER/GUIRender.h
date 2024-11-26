@@ -8,6 +8,7 @@
 #include <Arduino.h>
 #include "pmbus.h"
 #include "WIFINetwork.h"
+#include "Version.h"
 
 class GUIRender
 {
@@ -15,7 +16,7 @@ public:
     GUIRender();
     void init();
     void drawOLED(int displayPage);
-
+    void setContrast(int contrast);
     void setValues(PMBus *pmbus, WIFINetwork *wifiNetwork);
 public:
     float V_in = 0.000;
@@ -29,6 +30,10 @@ public:
     float Temp3 = 0.0;
     float Fan1 = 0.000;
     int FanSpeed = 0;
+    int menuSel = 0;//选择的菜单项
+    int animeFrame = 0;
+    int frameDown = 2;
+    int leftBtnFrame = 0;
     WIFINetwork *wifiNetwork;
 };
 

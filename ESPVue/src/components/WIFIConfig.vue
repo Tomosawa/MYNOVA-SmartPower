@@ -39,41 +39,23 @@
     </v-dialog>
   </v-row>
 
-  <v-card class="my-10" />
+  <v-card class="my-5" />
 
-  <v-card class="mx-auto pa-12 pb-8" max-width="448">
+  <v-card class="mx-auto pa-12 pb-0" max-width="448">
     <v-form ref="form" v-model="form" @submit.prevent="onSubmit">
       <div class="text-subtitle-1 text-medium-emphasis">WIFI网络</div>
 
-      <v-combobox v-model="selectedItem"
-      :items="wifi_items"
-      item-title="SSID"
-      density="compact" placeholder="WI-FI网络名称"
-      variant="outlined" :readonly="loading" :rules="[required]">
-      <template v-slot:prepend-inner>
-           <!-- <img src="@/assets/wifi.svg" width="16" height="16" style="margin-right: 5px;"/> -->
-            <inline-svg :src="icon_wifi" width="16" height="16" style="margin-right: 5px;"></inline-svg>
-      </template>
+      <v-combobox v-model="ST_SSID" :items="wifi_items" item-title="SSID" density="compact" placeholder="WI-FI网络名称"
+        variant="outlined" :readonly="loading" :rules="[required]" prepend-inner-icon="wifi">
       </v-combobox>
 
       <div class="text-subtitle-1 text-medium-emphasis d-flex align-center justify-space-between">
         WIFI密码
       </div>
 
-      <v-text-field v-model="password"
-        :type="visible ? 'text' : 'password'" :readonly="loading" :rules="[required]" density="compact"
-        placeholder="输入WIFI密码" variant="outlined">
-        <template v-slot:prepend-inner>
-              <!-- <img src="@/assets/password.svg" width="16" height="16" style="margin-right: 5px;"/> -->
-              <inline-svg :src="icon_password" width="16" height="16" style="margin-right: 5px;"></inline-svg>
-        </template>
-        <template v-slot:append-inner>
-              <!-- <img v-if="visible" src="@/assets/eye.svg" width="24" height="24" @click="visible = !visible"/>
-              <img v-else src="@/assets/eye-close.svg" width="24" height="24" @click="visible = !visible"/> -->
-              <inline-svg v-if="visible" :src="icon_eye" width="24" height="24" @click="visible = !visible"></inline-svg>
-              <inline-svg v-else :src="icon_eyeclose" width="24" height="24" @click="visible = !visible"></inline-svg>
-        </template>
-        </v-text-field>
+      <v-text-field v-model="ST_PASSWORD" :type="WIFI_visible ? 'text' : 'password'" :readonly="loading" :rules="[required]"
+        density="compact" placeholder="输入WIFI密码" variant="outlined" prepend-inner-icon="lock" :append-inner-icon="WIFI_visible ? 'visibility_off' : 'visibility'" @click:append-inner="WIFI_visible = !WIFI_visible">
+      </v-text-field>
 
       <v-btn block variant="elevated" :disabled="!form" :loading="loading" color="success" size="large" type="submit">
         保存配置
@@ -83,53 +65,88 @@
         删除配置
       </v-btn>
     </v-form>
+    <v-switch color="success" v-model="ST_ENABLE" inset @change="onWifiEnableChanged" label="启用WIFI连接" style="height: 56px;"></v-switch>
   </v-card>
 
+
+  <v-card class="mx-auto pa-12 pb-8" max-width="448">
+    <v-form ref="AP_form" v-model="AP_form" @submit.prevent="onAPSubmit">
+      <div class="text-subtitle-1 text-medium-emphasis">WIFI热点</div>
+      <v-text-field v-model="AP_SSID" type="text" density="compact" placeholder="WIFI热点名称"
+        variant="outlined" :readonly="loading" :rules="[required]" prepend-inner-icon="wifi_tethering">
+      </v-text-field>
+
+      <div class="text-subtitle-1 text-medium-emphasis d-flex align-center justify-space-between">
+        热点密码
+      </div>
+
+      <v-text-field v-model="AP_PASSWORD" :type="AP_visible ? 'text' : 'password'" :readonly="loading" :rules="[required]"
+        density="compact" placeholder="输入热点密码" variant="outlined" prepend-inner-icon="lock" :append-inner-icon="AP_visible ? 'visibility_off' : 'visibility'"  @click:append-inner="AP_visible = !AP_visible">
+      </v-text-field>
+      <v-btn block variant="elevated" :disabled="!AP_form" :loading="loading" color="success" size="large" type="submit">
+        保存配置
+      </v-btn>
+      <v-switch color="success" v-model="AP_ENABLE" inset label="启用AP热点" style="height: 56px;" @change="onAPEnable"></v-switch>
+    </v-form>
+  </v-card>
+  <v-dialog
+      v-model="AP_dialog"
+      max-width="400"
+      persistent
+    >
+      <v-card
+        prepend-icon="warning"
+        text-color="red"
+        text="警告：如果修改热点并忘记了密码，将导致再也无法连上设备进行设置，请谨慎操作！"
+        title="确认修改热点?"
+      >
+      <v-chip color="red" class="ml-6 mr-6" variant="flat" rounded="0">
+        请输入文字：我确认风险并修改
+      </v-chip>
+        <v-text-field v-model="AP_confirm" class="ml-6 mr-6 mt-2" :rules="[required]" density="compact" placeholder="请输入确认文字" variant="outlined"></v-text-field>
+        <template v-slot:actions>
+          <v-spacer></v-spacer>
+
+          <v-btn rounded="0" variant="flat" @click="onAPConfirm" :disabled="!isConfirmValid" :color="isConfirmValid ? 'red-darken-1' : ''">
+            确认修改
+          </v-btn>
+
+          <v-btn color="blue-darken-4" rounded="0" variant="flat" @click="AP_dialog = false">
+            取消返回
+          </v-btn>
+        </template>
+      </v-card>
+    </v-dialog>
 </template>
 <script>
   import axios from 'axios';
-  import InlineSvg from 'vue-inline-svg';
-  import svg_wifi from '../assets/wifi.svg';
-  import svg_password from '../assets/password.svg';
-  import svg_eye from '../assets/eye.svg';
-  import svg_eyeclose from '../assets/eye-close.svg';
   export default {
     components: {
-       InlineSvg,
     },
     data: () => ({
       form: false,
-      selectedItem: [],
-      password: null,
+      AP_form: false,
+      ST_SSID: '',
+      ST_PASSWORD: '',
+      ST_ENABLE: false,
+      AP_SSID: '',
+      AP_PASSWORD: '',
+      AP_ENABLE: false,
       loading: false,
-      visible: false,
+      WIFI_visible: false,
+      AP_visible: false,
       dialog: false,
       cleardialog: false,
-      icon_wifi: svg_wifi,
-      icon_password: svg_password,
-      icon_eye: svg_eye,
-      icon_eyeclose:svg_eyeclose,
-      wifi_items :[
-        {
-          SSID: "Network1"
-        },
-      ],
+      AP_dialog: false,
+      AP_confirm: '',
+      wifi_items: [{
+        SSID: "Network1"
+      }, ],
     }),
     mounted() {
       console.log("WIFI config mounted");
-      axios.get('/api/wifiscan').then(
-        // 成功
-        response => {
-          console.log('请求成功了',response.data)
-          this.wifi_items = response.data.WIFI_SCAN;
-          this.selectedItem = response.data.WIFI_SSID;
-          this.password = response.data.WIFI_PASSWORD;
-        },
-        // 失败
-        error => {
-          console.log('请求失败了',error.message)
-        }
-      );
+      this.getWifiScan();
+      this.getAPInfo();
     },
     methods: {
       onSubmit() {
@@ -139,15 +156,14 @@
         this.dialog = true
 
         var wifissid = "";
-        if(typeof this.selectedItem === 'object')
-          wifissid = this.selectedItem.SSID;
+        if (typeof this.ST_SSID === 'object')
+          wifissid = this.ST_SSID.SSID;
         else
-          wifissid = this.selectedItem;
+          wifissid = this.ST_SSID;
 
-        var data =
-        {
+        var data = {
           SSID: wifissid,
-          PWD: this.password
+          PWD: this.ST_PASSWORD
         };
         console.log(data);
         axios.post('/api/wifisave', data).then(
@@ -162,8 +178,24 @@
         );
         //setTimeout(() => (this.loading = false), 2000)
       },
+      onAPSubmit(){
+        if (!this.AP_form) return
+        this.AP_confirm = '';
+        this.AP_dialog = true;
+      },
       required(v) {
         return !!v || '不能为空'
+      },
+      getWifiScan(){
+        axios.get('/api/wifiscan').then(
+          response => {
+            console.log('请求成功了', response.data)
+            this.wifi_items = response.data.WIFI_SCAN;
+          },
+          error => {
+            console.log('请求失败了', error.message)
+          }
+        );
       },
       connectWifi() {
         this.dialog = false
@@ -171,35 +203,107 @@
         axios.get('/api/wificonnect').then(
           // 成功
           response => {
-            console.log('请求成功了',response.data)
+            console.log('请求成功了', response.data)
             this.loading = false
           },
           // 失败
           error => {
-            console.log('请求失败了',error.message)
+            console.log('请求失败了', error.message)
             this.loading = false
           }
         );
       },
-      clearConfig () {
+      clearConfig() {
         this.cleardialog = true;
       },
       deleteConfig() {
         axios.delete('/api/wificlear').then(
           // 成功
           response => {
-            console.log('请求成功了',response.data)
+            console.log('请求成功了', response.data)
             this.$refs.form.reset();
             this.cleardialog = false;
           },
           // 失败
           error => {
-            console.log('请求失败了',error.message)
+            console.log('请求失败了', error.message)
             this.cleardialog = false;
           }
         );
       },
+      onWifiEnableChanged(){
+        //发送请求到/api/wifienable
+        var data = {
+          WIFI_ENABLE: this.ST_ENABLE
+        };
+        console.log(data);
+        axios.post('/api/wifienable', data).then(
+          response => {
+            console.log(response.data);
+          },
+          error => {
+            console.log('请求失败了', error.message)
+          }
+        );
+      },
+      //获取AP热点信息
+      getAPInfo(){
+        axios.get('/api/apwifiinfo').then(
+          response => {
+            console.log('请求成功了', response.data)
+            this.AP_SSID = response.data.AP_SSID;
+            this.AP_PASSWORD = response.data.AP_PWD;
+            this.AP_ENABLE = response.data.AP_ENABLE;
+            this.ST_SSID = response.data.WIFI_SSID;
+            this.ST_PASSWORD = response.data.WIFI_PASSWORD;
+            this.ST_ENABLE = response.data.WIFI_ENABLE;
+          },
+          error => {
+            console.log('请求失败了', error.message)
+          } 
+        );
+      },
+      //保存AP热点信息
+      saveAPInfo(){
+        var data = {
+          AP_SSID: this.AP_SSID,
+          AP_PWD: this.AP_PASSWORD
+        };
+        console.log(data);
+        axios.post('/api/apsave', data).then(
+          response => {
+            console.log(response.data);
+          },
+          error => {
+            console.log('请求失败了', error.message)
+          }
+        );
+      },
+      //发送AP热点开关
+      onAPEnable(){
+        var data = {
+          AP_ENABLE: this.AP_ENABLE
+        };
+        console.log(data);
+        axios.post('/api/apenable', data).then(
+          response => {
+            console.log(response.data);
+          },
+          error => {
+            console.log('请求失败了', error.message)
+          }
+        );
+      },
+      onAPConfirm(){
+        this.AP_dialog = false;
+        this.saveAPInfo();
+      }
     },
+    computed: {
+      isConfirmValid() {
+        return this.AP_confirm === '我确认风险并修改'
+      }
+    }
   }
 </script>
 

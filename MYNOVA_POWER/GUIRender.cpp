@@ -5,7 +5,7 @@
  */
 #include "GUIRender.h"
 #include <U8g2lib.h>
-
+#include "Settings.h"
 // OLED屏幕配置
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, /* clock=*/2, /* data=*/3);
 
@@ -26,7 +26,13 @@ static unsigned char temperature[] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x00, 0x40, 0x01, 0xa0, 0x06,
     0xa0, 0x02, 0xa0, 0x06, 0xa0, 0x02, 0xa0, 0x02, 0x90, 0x04, 0xc8, 0x09,
     0x48, 0x09, 0xd0, 0x05, 0x20, 0x02, 0xc0, 0x01};
+int frameCounter = 0;
+int frameThreshold = 1; // 控制每隔多少帧切换图标
 
+static const char* settingItem[] = {"WIFI AP","WIFI ST","BRIGHTNESS","AC POWER", "EXIT"};
+static const int settingItemCount = 5;
+char* settingValues[] = {"ON","ON","100","OFF", ""};
+extern Settings settings;
 GUIRender::GUIRender()
 {
     
@@ -35,6 +41,7 @@ GUIRender::GUIRender()
 void GUIRender::init()
 {
     u8g2.begin();
+    setContrast(settings.brightness);
 }
 
 void GUIRender::setValues(PMBus *pmbus, WIFINetwork *wifiNetwork)
@@ -122,11 +129,25 @@ void GUIRender::drawOLED(int displayPage)
     }
     else if (displayPage == 2)
     { // 温度页
+        // 计算帧率阈值，转速越低，间隔帧数越多
+        if(Fan1 < 1)
+            Fan1 = 1;
+        frameThreshold = 10000 / Fan1;  // 确保Fan1不为0，防止除零
+        frameThreshold = max(frameThreshold, 1);  // 防止阈值小于1
+
+        // 每隔 frameThreshold 帧切换一次图标
+        if (frameCounter >= frameThreshold) {
+            icon_f ^= 1; // 切换图标
+            frameCounter = 0; // 重置帧计数
+        } else {
+            frameCounter++; // 增加帧计数
+        }
+
         u8g2.drawXBM(0, 0, temperature_width, temperature_width, temperature);
         u8g2.drawXBM(0, 16, temperature_width, temperature_width, temperature);
         u8g2.drawXBM(0, 32, temperature_width, temperature_width, temperature);
 
-        u8g2.drawXBM(0, 48, fan_width, fan_width, fan[icon_f ^= 1]);
+        u8g2.drawXBM(0, 48, fan_width, fan_width, fan[icon_f]);
 
         u8g2.setFont(u8g2_font_unifont_t_symbols);
         char text[10];
@@ -196,9 +217,9 @@ void GUIRender::drawOLED(int displayPage)
         // 右侧数据
         u8g2.setFont(u8g2_font_helvR08_tr);
         u8g2.drawStr(40, 9, "MYNOVA");
-        u8g2.drawStr(40, 19, wifiNetwork->AP_State ? "Started" : "Stopped");
-        u8g2.drawStr(40, 30, wifiNetwork->getAPIP().toString().c_str());
-        u8g2.drawStr(40, 41, wifiNetwork->wifi_ssid.c_str());
+        u8g2.drawStr(40, 19, settings.enable_AP ? "Started" : "Stopped");
+        u8g2.drawStr(40, 30, settings.enable_AP ? wifiNetwork->getAPIP().toString().c_str() : "0.0.0.0");
+        u8g2.drawStr(40, 41, settings.ST_ssid.c_str());
         u8g2.drawStr(40, 51, wifiNetwork->getWIFIStateInfo().c_str());
         u8g2.drawStr(40, 62, wifiNetwork->getWIFIIP().toString().c_str());
     }
@@ -211,10 +232,73 @@ void GUIRender::drawOLED(int displayPage)
         u8g2.drawFrame(5, 49, 96, 7);
         u8g2.setFont(u8g2_font_6x10_tf);
         char text[5];
-        sprintf(text, "%d%%", FanSpeed);
+        sprintf(text, "%d", FanSpeed);
         u8g2.drawStr(102, 56, text);
         u8g2.drawBox(6, 50, FanSpeed * 95.0 / 100, 6);
-        
+    }
+    else if(displayPage == 10)
+    {   //设置页面
+        u8g2.setFontMode(1);
+        u8g2.setDrawColor(1);
+        u8g2.drawRFrame(128-25,54,25,10,2);
+        u8g2.drawRFrame(0,54,25,10,2);
+        if(animeFrame > 0)
+        {
+            animeFrame-=frameDown;
+            u8g2.drawRBox(128-25,54,25,10,2);
+        }
+        if(leftBtnFrame > 0)
+        {
+            leftBtnFrame--;
+            u8g2.drawRBox(0,54,25,10,2);
+        }
+        u8g2.drawBox(0, abs(10 * menuSel - animeFrame), 128, 10);
+        u8g2.setFont(u8g2_font_5x8_tf);
+        u8g2.setDrawColor(2);
+
+        //菜单
+        for(int i = 0 ; i< settingItemCount; i++)
+        {
+            u8g2.drawStr(2, 8 + 10 * i ,settingItem[i]);
+            if( i == 0)
+            {//WIFI AP
+                String strEnableAP = settings.enable_AP ? "ON" : "OFF";
+                uint16_t strWidth = u8g2.getStrWidth(strEnableAP.c_str());
+                u8g2.drawStr(128 - strWidth - 2, 8 + 10 * i, strEnableAP.c_str());
+            }
+            else if(i == 1)
+            {//WIFI ST
+                String strEnableST = settings.enable_ST ? "ON" : "OFF";
+                uint16_t strWidth = u8g2.getStrWidth(strEnableST.c_str());
+                u8g2.drawStr(128 - strWidth - 2, 8 + 10 * i,strEnableST.c_str());
+            }
+            else if(i == 2)
+            {//Brightness
+                String strBright = String(settings.brightness) + "%";
+                uint16_t strWidth = u8g2.getStrWidth(strBright.c_str());
+                u8g2.drawStr(128 - strWidth - 2, 8 + 10 * i, strBright.c_str());
+            }
+            else if(i == 3)
+            {//AC POWER
+                String strACPower = settings.AC_PowerON ? "ON" : "OFF";
+                uint16_t strWidth = u8g2.getStrWidth(strACPower.c_str());
+                u8g2.drawStr(128 - strWidth - 2, 8 + 10 * i, strACPower.c_str());
+            }
+            
+        }
+        //绘制按钮
+        u8g2.drawStr(5, 8 + 10 * settingItemCount + 4, "SET");
+        uint16_t strWidth = u8g2.getStrWidth("MOVE");
+        u8g2.drawStr(128 - strWidth - 3, 8 + 10 * settingItemCount + 4, "MOVE");
+        //绘制Version
+        strWidth = u8g2.getStrWidth(FIRMWARE_VERSION);
+        u8g2.drawStr(64 - strWidth / 2, 8 + 10 * settingItemCount + 4, FIRMWARE_VERSION);
+
     }
     u8g2.sendBuffer();
+}
+
+void GUIRender::setContrast(int contrast)
+{
+    u8g2.setContrast(contrast * 2.55);
 }

@@ -15,6 +15,5 @@
 #define PIN_PMBUS_SCL   48
 #define PIN_PMBUS_SDA   47
 #define PIN_AC_OK       10
-#define PIN_SW_SIGNAL   20
 
 #endif

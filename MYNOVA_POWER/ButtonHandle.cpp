@@ -9,13 +9,13 @@
 #include "pmbus.h"
 #include "ESP32TimerInterrupt.h"
 #include "EventHandle.h"
+#include "Settings.h"
 
 ESP32Timer esp32Timer(1);
 extern GUIRender guiRender;
 extern int displayPage;
 extern PMBus psu;
-extern int pageTimeOut;
-extern bool switchOn;
+extern Settings settings;
 EventHandle eventHandle;
 //QueueHandle_t eventQueue;
 bool TimerHandle(void *timeNo)
@@ -74,7 +74,6 @@ void ButtonHandle::Click_Handle_BtnLeft(void *btn)
     }
     else if (displayPage == 4)
     { // 当前页在温度页面
-        pageTimeOut = 0;
         if (guiRender.FanSpeed - 10 > 0)
         {
             guiRender.FanSpeed -= 10;
@@ -84,28 +83,62 @@ void ButtonHandle::Click_Handle_BtnLeft(void *btn)
             guiRender.FanSpeed = 0;
         }
         eventHandle.setSpeed(guiRender.FanSpeed);
-       
+    }
+    else if (displayPage == 10)
+    {
+        //当前在设置页面
+       if(guiRender.menuSel == 0)
+       {    //WIFI AP
+            guiRender.leftBtnFrame = 3;
+            settings.enable_AP = !settings.enable_AP;
+            if(settings.enable_AP && !settings.AP_ssid.isEmpty() && !settings.AP_password.isEmpty())
+            {
+                eventHandle.connectWifi_AP();
+            }
+            else if(!settings.enable_AP)
+            {
+                eventHandle.disConnectWifi_AP();
+            }
+            eventHandle.saveSettings();
+       }
+       else if(guiRender.menuSel == 1)
+       {    //WIFI ST
+            guiRender.leftBtnFrame = 3;
+            settings.enable_ST = !settings.enable_ST;
+            if(settings.enable_ST && !settings.ST_ssid.isEmpty())
+            {
+                eventHandle.connectWifi_ST();
+            }
+            else if(!settings.enable_ST)
+            {
+                eventHandle.disConnectWifi_ST();
+            }
+            eventHandle.saveSettings();
+       }
+       else if(guiRender.menuSel == 2)
+       {    //BRIGHTNESS
+            guiRender.leftBtnFrame = 3;
+            if(settings.brightness >= 100)
+                settings.brightness = 0;
+            settings.brightness += 10;
+            eventHandle.setContrast();
+            eventHandle.saveSettings();
+       }
+       else if(guiRender.menuSel == 3)
+       {    //AC POWER
+            guiRender.leftBtnFrame = 3;
+            settings.AC_PowerON = !settings.AC_PowerON;
+            eventHandle.saveSettings();
+       }
+       else if(guiRender.menuSel == 4)
+       {    //EXIT
+            displayPage = 3;
+       }
     }
 }
 void ButtonHandle::LongPressStart_Handler_BtnLeft(void *btn)
 {
-   
-    if (displayPage == 2)
-    { // 当前页在温度页面
-        // 显示温度设置
-        eventHandle.getSpeed();
-
-        displayPage = 4;
-    }
-    else if (displayPage == 1 || displayPage == 3)
-    { // 当前是开启状态
-        // 必须是软启动
-        if (!switchOn)
-        {
-            // 显示关机确认页面
-            displayPage = -2;
-        }
-    }
+   LongPressStart_Handler_BtnRight(btn);
 }
 void ButtonHandle::Click_Handle_BtnRight(void *btn)
 {
@@ -133,34 +166,49 @@ void ButtonHandle::Click_Handle_BtnRight(void *btn)
     }
     else if (displayPage == 4)
     { // 当前页在温度页面
-        pageTimeOut = 0;
-        if (guiRender.FanSpeed + 10 < 100)
+        if (guiRender.FanSpeed + 10 <= 100)
         {
             guiRender.FanSpeed += 10;
         }
         else
         {
-            guiRender.FanSpeed = 100;
+            guiRender.FanSpeed = 10;
         }
         eventHandle.setSpeed(guiRender.FanSpeed);
+    }
+    else if (displayPage == 10)
+    {
+        //当前在设置页面
+        guiRender.menuSel++;
+        if(guiRender.menuSel < 5)
+        {
+            guiRender.animeFrame = 10;
+            guiRender.frameDown = 2;
+        }
+        else
+        {    
+            guiRender.animeFrame = 10 * 4; 
+            guiRender.frameDown = 8;
+            guiRender.menuSel = 0;
+        }
     }
 }
 void ButtonHandle::LongPressStart_Handler_BtnRight(void *btn)
 {
-    if (displayPage == 2)
+    if (displayPage == 1)
+    { // 当前是开启状态
+        // 显示关机确认页面
+        displayPage = -2;
+    }
+    else if (displayPage == 2)
     { // 当前页在温度页面
         // 显示温度设置
         eventHandle.getSpeed();
         displayPage = 4;
     }
-    else if (displayPage == 1 || displayPage == 3)
-    { // 当前是开启状态
-        // 必须是软启动
-        if (!switchOn)
-        {
-            // 显示关机确认页面
-            displayPage = -2;
-        }
+    else if(displayPage == 3)
+    {// 当前在网络页面
+        displayPage = 10;//显示设置页面
     }
 }
 
