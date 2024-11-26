@@ -61,6 +61,16 @@ Completed product can be seen in the following image:
 - WiFi connectivity to view data via web interface by entering IP on mobile or computer.
 - Control power on and off via web interface.
 
+
+## New Features in V1.1 (20241126)
+- Compatibility with E495E-S1 and E750E-S1 power supplies
+- Added a settings page on the device end: Access by long-pressing the right key on the network page.
+- Support for toggling WIFI on/off, hotspot on/off, and screen brightness settings
+- Support for setting the device to automatically power on after being plugged in
+- Countdown automatic shutdown feature
+- Timed on/off feature, supporting time period settings for on/off, individual on or off, and repeat cycle strategy setup
+- Conditional shutdown feature, which shuts down the device when the input or output current or power exceeds or falls below a certain value.
+
 ## Supported Chips
 
 - ESP32-S3-WROOM-N16
@@ -71,10 +81,15 @@ Or chips from the ESP32-S3 series. Depending on flash capacity of the chip, defi
 ## Tested PSU
 
 This firmware has been tested on the following DELL PSU models:
+- F495E-S0
 - E750E-S0
+- F750E-S0
+- D750E-S2
 - E1100E-S0
 - L1100E-S0
 - D2000E-S2(EPP)
+- E495E-S1(EPP)
+- E750E-S1(EPP)
 
 Other models should be similar; further testing required as I lack additional models.
 
