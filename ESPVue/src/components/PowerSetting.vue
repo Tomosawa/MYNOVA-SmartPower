@@ -334,7 +334,6 @@ export default {
     acPowerOn: false,
     countDownPowerOff: false,
     intervalId: 0,
-    firstFetch: true,
     fan_svg: icon_fan,
     countDownTime: '01:00',
     countDownTimePicker: false,
@@ -476,13 +475,9 @@ export default {
       axios.get('/api/psusetting').then(
         response => {
           console.log('请求成功了', response.data)
-          //第一次请求则更新开关和速度值
-          if (this.firstFetch) {
-            this.powersw = response.data.POWER_SW;
-            this.fanSpeed = response.data.FAN_SETTING;
-            this.firstFetch = false;
-            this.acPowerOn = response.data.AC_POWER_ON;
-          }
+          this.powersw = response.data.POWER_SW;
+          this.fanSpeed = response.data.FAN_SETTING;
+          this.acPowerOn = response.data.AC_POWER_ON;
           this.fanRPM = response.data.READ_FAN_SPEED_1;
           if (response.data.POWER_SW) {
             var time = response.data.RUN_TIME;

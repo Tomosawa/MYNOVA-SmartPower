@@ -67,6 +67,7 @@
 
 #define COEFFICIENTS 0x30
 #define VOUT_MODE 0x20
+#define WRITE_PROTECT 0x10
 
 /*
  */
@@ -163,9 +164,14 @@ int PMBus::scan()
     exponent = readVoutMode(VOUT_MODE);
     Debug->print("VOUT exponent=");
     Debug->println(exponent);
+    //指定为-1，否则某些电源是-9会有问题
+    exponent = -1;
 
     // 读取 COEFFICIENTS
     readCoefficients(COEFFICIENTS, &coeff);
+
+    // 解除写入保护
+    write_byte(WRITE_PROTECT, 0x00);
 
     uint8_t fanconfig = read_byte(0x3A);
     Debug->println(String(fanconfig,BIN));
